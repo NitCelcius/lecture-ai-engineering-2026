@@ -1,4 +1,4 @@
-"""計測スクリプトのテスト（LLMもAPIキーも使わない）。"""
+"""計測スクリプトのテスト(LLMもAPIキーも使わない)。"""
 
 from types import SimpleNamespace
 

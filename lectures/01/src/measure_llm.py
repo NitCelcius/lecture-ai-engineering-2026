@@ -1,11 +1,11 @@
-"""第1回 宿題（発展）: モデル×質問で応答時間とトークン数を計測し、集計する。
+"""第1回 宿題(発展): モデル×質問で応答時間とトークン数を計測し、集計する。
 
-使い方（リポジトリのルートで。GEMINI_API_KEY は環境変数で渡す）:
+使い方(リポジトリのルートで。GEMINI_API_KEY は環境変数で渡す):
     PYTHONPATH=. uv run python lectures/01/src/measure_llm.py run --repeats 3 --out lectures/01/results/measurements.jsonl
     PYTHONPATH=. uv run python lectures/01/src/measure_llm.py summary lectures/01/results/measurements.jsonl lectures/01/results/measurements_long.jsonl
 テスト: uv run pytest lectures/01/src
 
-run は 1 回の呼び出しごとに JSONL を追記する（途中で止まっても記録は残る）。
+run は 1 回の呼び出しごとに JSONL を追記する(途中で止まっても記録は残る)。
 モデルごとの RPM を超えないよう、同じモデルへの呼び出し間隔を空ける。
 summary は 1 つ以上の JSONL からモデル別・質問別の Markdown 表を標準出力に出す。
 """
@@ -24,7 +24,7 @@ from google.genai import errors
 
 from app.config import api_error_message, get_api_key
 
-# 比較するモデルと無料枠の RPM（AI Studio のレート制限画面の値）
+# 比較するモデルと無料枠の RPM(AI Studio のレート制限画面の値)
 MODEL_RPM = {
     "gemini-3.5-flash-lite": 15,
     "gemini-3.1-flash-lite": 15,
@@ -36,7 +36,7 @@ RPM_MARGIN_SECONDS = 1.0
 QUESTIONS = {
     # 短い事実質問
     "short": "LoRAとは何ですか？",
-    # 前提が偽の質問（実在するのはカモシカに関するジンクス）。知らないことを作り話で答えるかを見る
+    # 前提が偽の質問(実在するのはカモシカに関するジンクス)。知らないことを作り話で答えるかを見る
     "false_premise": "秋田大学の学生に伝わっている、ヒグマに関するジンクスはなんですか？",
     # 長い出力を要する質問
     "long": (
@@ -53,9 +53,9 @@ def build_record(model, question_id, repeat, latency_s, chunks=None, usage=None,
     """1 回の呼び出し結果を JSONL の 1 行分にする。error があれば失敗として記録する。
 
     chunks は回答テキストを含むチャンクごとの [受信時刻(s), 文字数, 累積出力トークン数 or None]。
-    API が返す最小単位はチャンク（数トークン〜数十トークン）で、トークン単位の時刻は取れない。
+    API が返す最小単位はチャンク(数トークン〜数十トークン)で、トークン単位の時刻は取れない。
     latency_s は送信から最後のチャンクまで、ttft_s は送信から最初の回答テキストまで。
-    思考（thinking）は回答テキストより前に行われるので、ttft_s に含まれる。
+    思考(thinking)は回答テキストより前に行われるので、ttft_s に含まれる。
     """
     record = {
         "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -129,7 +129,7 @@ def load_records(path: Path) -> list[dict]:
 
 
 def summarize(records: list[dict], keys: tuple[str, ...]) -> list[dict]:
-    """keys（例: ("model",)）ごとに、成功した呼び出しの平均などを集計する。"""
+    """keys(例: ("model",))ごとに、成功した呼び出しの平均などを集計する。"""
     groups = defaultdict(list)
     for r in records:
         groups[tuple(r[k] for k in keys)].append(r)
@@ -141,7 +141,7 @@ def summarize(records: list[dict], keys: tuple[str, ...]) -> list[dict]:
         row.update(n_ok=len(ok), n_error=len(group) - len(ok))
         if ok:
             latencies = [r["latency_s"] for r in ok]
-            # 出力速度は最初の回答テキスト以降の区間で測る（思考は TTFT 側に入る）
+            # 出力速度は最初の回答テキスト以降の区間で測る(思考は TTFT 側に入る)
             streamed = [r for r in ok if r["output_s"] > 0]
             row.update(
                 latency_median=statistics.median(latencies),
