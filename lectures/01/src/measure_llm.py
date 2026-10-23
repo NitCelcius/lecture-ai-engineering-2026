@@ -2,12 +2,12 @@
 
 使い方（リポジトリのルートで。GEMINI_API_KEY は環境変数で渡す）:
     PYTHONPATH=. uv run python lectures/01/src/measure_llm.py run --repeats 3 --out lectures/01/results/measurements.jsonl
-    PYTHONPATH=. uv run python lectures/01/src/measure_llm.py summary lectures/01/results/measurements.jsonl
+    PYTHONPATH=. uv run python lectures/01/src/measure_llm.py summary lectures/01/results/measurements.jsonl lectures/01/results/measurements_long.jsonl
 テスト: uv run pytest lectures/01/src
 
 run は 1 回の呼び出しごとに JSONL を追記する（途中で止まっても記録は残る）。
 モデルごとの RPM を超えないよう、同じモデルへの呼び出し間隔を空ける。
-summary は JSONL からモデル別・質問別の Markdown 表を標準出力に出す。
+summary は 1 つ以上の JSONL からモデル別・質問別の Markdown 表を標準出力に出す。
 """
 
 import argparse
@@ -182,14 +182,14 @@ def main() -> None:
     run_parser.add_argument("--out", type=Path, required=True)
 
     summary_parser = sub.add_parser("summary", help="JSONL を Markdown の表にする")
-    summary_parser.add_argument("path", type=Path)
+    summary_parser.add_argument("paths", type=Path, nargs="+")
 
     args = parser.parse_args()
     if args.command == "run":
         run(args.models, args.questions, args.repeats, args.out)
         return
 
-    records = load_records(args.path)
+    records = [r for path in args.paths for r in load_records(path)]
     for keys in [("model",), ("model", "question_id")]:
         print(format_table(summarize(records, keys), keys), end="\n\n")
 
