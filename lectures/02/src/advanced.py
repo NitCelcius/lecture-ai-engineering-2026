@@ -6,7 +6,7 @@
 #   2. 下の PINS で入れ直す:  %pip uninstall -y -q torchao  →  %pip install -q "transformers==5.18.0" "peft==0.21.1" "trl==1.14.2" "accelerate==1.15.0" "datasets==5.1.0"
 #   3. !python advanced.py   (T4 で学習 5〜10 分 + 評価 4 条件)
 # Usage (local):  uv run advanced.py
-# 設定を変えるときは下の「設定」の定数を書き換える。結果の表との対応は answer.md の「再現方法」を参照。
+# 設定を変えるときは下の「設定」の定数を書き換える。結果の表との対応は answer.md の「パラメータの調整」「結果」の節を参照。
 # Outputs: RUNS_DIR/epochs=E-lora_r=R-lr=X-seed=S/ に result.json, eval_<条件>.json, adapter/
 # in_keyword_ok = 正解のキーワードをすべて含み、かつ「記載がありません」等を含まない割合(内容の正しさそのものではない)
 import json

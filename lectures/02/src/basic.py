@@ -5,7 +5,7 @@
 #   1. %pip uninstall -y -q torchao  →  %pip install -q "transformers==5.18.0" "peft==0.21.1" "trl==1.14.2" "accelerate==1.15.0" "datasets==5.1.0"
 #   2. !python basic.py   (T4 で学習 4〜5 分 + 評価 2 回)
 # Usage (local):  uv run basic.py
-# 設定を変えるときは下の「設定」の定数を書き換える。結果の表との対応は answer.md の「再現方法」を参照。
+# 設定を変えるときは下の「設定」の定数を書き換える。結果の表との対応は answer.md の「演習」の節を参照。
 # Outputs: RUNS_DIR/epochs=E-lora_r=R-lr=X-seed=S/ に result.json, eval_before.json, eval_after.json, adapter/
 import json
 import re
