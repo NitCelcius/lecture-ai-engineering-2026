@@ -1,0 +1,22 @@
+[project]
+name = "aie2026-lec02"
+version = "0.1.0"
+description = "第2回 LoRA 演習（スクリプト版）。ローカル smoke test とサーバー本番で同じ版を使う"
+requires-python = ">=3.12"
+# 版はノートブックの PINS と同じ。torch は Colab と同じ 2.11.0 だが、サーバーのドライバが CUDA 12.8 までなので cu128 ビルドを使う
+dependencies = [
+    "torch==2.11.0",
+    "transformers==5.18.0",
+    "peft==0.21.1",
+    "trl==1.14.2",
+    "accelerate==1.15.0",
+    "datasets==5.1.0",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
