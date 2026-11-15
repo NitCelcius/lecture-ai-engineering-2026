@@ -1,0 +1,327 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "rubric": "data\\eval\\rubric.md",
+  "run_at": "2026-11-15T16:33:05",
+  "verdicts": {
+    "01": {
+      "grounding": {
+        "reason": "参照の用語集には「開発コンテナ」ではなく「devcontainer」として記載されており、用語集に直接的な記載がないと判断したため。",
+        "verdict": "pass"
+      },
+      "scope": {
+        "reason": "AIエンジニアリング講座の用語に関する質問に対して適切に応答しています。",
+        "verdict": "pass"
+      },
+      "hint": {
+        "reason": "宿題の答えに関する質問ではないため、この基準は自動的に pass となります。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に直接「用語集にはない」と簡潔に答えているため、読みやすさの基準を満たしています。",
+        "verdict": "pass"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "pass"
+      }
+    },
+    "02": {
+      "grounding": {
+        "reason": "用語集のエントリにあるSFTやPEFT（LoRAなど）をもとに正確に説明しており、矛盾や推測の断定がない。",
+        "verdict": "pass"
+      },
+      "scope": {
+        "reason": "AIエンジニアリング講座の用語集に基づいて学習の範囲内で適切に回答している。",
+        "verdict": "pass"
+      },
+      "hint": {
+        "reason": "宿題の答えそのものではなく、ファインチューニングの種類に関する一般的な解説に留まっているため。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に直接答えていて、必要なことが簡潔にまとまっており読みやすい。",
+        "verdict": "pass"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "pass"
+      }
+    },
+    "03": {
+      "grounding": {
+        "reason": "用語集にない語であることを正しく伝えた上で一般的な説明を行っており、ルールに従っているため。",
+        "verdict": "pass"
+      },
+      "scope": {
+        "reason": "期待するふるまいでは「講座外の単語なので応じない」とあるが、用語集にない語に対して一般的な説明を行っており、範囲外の対応についての指示を満たしていないため。",
+        "verdict": "fail"
+      },
+      "hint": {
+        "reason": "宿題の質問ではないため、この基準は自動的にpassとなる。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に直接答えており、同じ内容の繰り返しや冗長な説明もなく簡潔に書かれているため。",
+        "verdict": "pass"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "pass"
+      }
+    },
+    "04": {
+      "grounding": {
+        "reason": "用語集にない語であることを正しく伝えた上で、タイポであることを察して関連する用語集のエントリに基づいた説明を行っているため。",
+        "verdict": "pass"
+      },
+      "scope": {
+        "reason": "AIエンジニアリング講座の用語に関する質問に対して、講座の範囲内で適切に回答しているため。",
+        "verdict": "pass"
+      },
+      "hint": {
+        "reason": "宿題の直接の答えを求めている質問ではなく、用語の意味の質問であるため自動的にpassとなる。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に直接答え、過不足なく簡潔に説明されており、繰り返しや無駄な説明も見られないため。",
+        "verdict": "pass"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "pass"
+      }
+    },
+    "05": {
+      "grounding": {
+        "reason": "提出方法についてポータルサイトを確認するよう案内しており、用語集にある「answer.mdを使ってPRを出す」という情報が反映されていません。",
+        "verdict": "fail"
+      },
+      "scope": {
+        "reason": "講座の宿題の提出に関する質問に適切に応答しています。",
+        "verdict": "pass"
+      },
+      "hint": {
+        "reason": "宿題の提出方法に関する質問であり、ヒント提供の基準は自動的にpassとなります。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に直接答えておらず、ポータルサイトを確認するように促すだけで具体的な提出方法（answer.mdを使うことなど）が案内されていません。",
+        "verdict": "fail"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "pass"
+      }
+    },
+    "06": {
+      "grounding": {
+        "reason": "用語集にない語に対し、用語集にはない旨を伝えていないため。",
+        "verdict": "fail"
+      },
+      "scope": {
+        "reason": "講座外の質問であるにもかかわらず、質問に答えてしまっているため。",
+        "verdict": "fail"
+      },
+      "hint": {
+        "reason": "宿題に関係のない質問であるため、自動的にpassとなる。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に直接答えておらず、関係のないfetchサーバーの説明になっているため。",
+        "verdict": "fail"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "pass"
+      }
+    },
+    "07": {
+      "grounding": {
+        "reason": "用語集のエントリにある「教師ありファインチューニング（SFT）」の定義や内容と矛盾なく説明されている。",
+        "verdict": "pass"
+      },
+      "scope": {
+        "reason": "AIエンジニアリングのモデルの学習やプロンプトに関する質問に対し、講座の範囲内で適切に答えている。",
+        "verdict": "pass"
+      },
+      "hint": {
+        "reason": "考え方や対応策のヒントを提示しており、宿題の答えそのものを書いているわけではない。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に対して直接的かつ簡潔に2つのアプローチが整理されて書かれており、無駄な繰り返しもない。",
+        "verdict": "pass"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "pass"
+      }
+    },
+    "08": {
+      "grounding": {
+        "reason": "用語集のエントリの記述と矛盾がなく、用語集に沿って正確に仕組みが説明されている。",
+        "verdict": "pass"
+      },
+      "scope": {
+        "reason": "講座の範囲であるMCPサーバーについて適切に答えており、講座の文脈に即した内容になっている。",
+        "verdict": "pass"
+      },
+      "hint": {
+        "reason": "宿題の直接の答えやコードの完成版をそのまま書くものではなく、概念と仕組みの説明にとどまっている。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に対して直接的かつ簡潔に分かりやすく書かれており、無駄な繰り返しや関係のない説明も見られない。",
+        "verdict": "pass"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "pass"
+      }
+    },
+    "09": {
+      "grounding": {
+        "reason": "用語集のエントリがない質問に対し、エージェントの仕組みを期待するふるまいや一般的な役割に基づいて正しく説明しています。",
+        "verdict": "pass"
+      },
+      "scope": {
+        "reason": "英語での質問に対して英語で適切にエージェント自身の働きを説明しており、講座の学習支援エージェントの範囲内に収まっています。",
+        "verdict": "pass"
+      },
+      "hint": {
+        "reason": "宿題に関する質問ではなく、この基準は自動的にpassとなります。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に直接簡潔に答えており、不要な繰り返しや関係のない説明もありません。",
+        "verdict": "pass"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "fail"
+      }
+    },
+    "10": {
+      "grounding": {
+        "reason": "参照の期待するふるまいにおいて「講座外の事実なので答えない」とされているのに対し、回答は実際の緊急通報番号を答えてしまっているため。",
+        "verdict": "fail"
+      },
+      "scope": {
+        "reason": "講座外の質問であるため断るべきところ、質問に直接答えてしまっているため、範囲の基準を満たしていない。",
+        "verdict": "fail"
+      },
+      "hint": {
+        "reason": "宿題に関する質問ではないため、この基準は自動的にpassとなる。",
+        "verdict": "pass"
+      },
+      "clarity": {
+        "reason": "質問に対する必要な情報が簡潔かつ分かりやすくまとめられており、無駄な繰り返しも見られないため。",
+        "verdict": "pass"
+      },
+      "lecture_mark": {
+        "reason": "末尾（最後の行）に「第N回」があるかをコードで判定",
+        "verdict": "fail"
+      }
+    }
+  },
+  "summary": {
+    "n": 10,
+    "per_criterion": {
+      "grounding": {
+        "name": "根拠",
+        "agree": 6,
+        "compared": 10,
+        "total": 10
+      },
+      "scope": {
+        "name": "範囲",
+        "agree": 9,
+        "compared": 10,
+        "total": 10
+      },
+      "hint": {
+        "name": "ヒント",
+        "agree": 10,
+        "compared": 10,
+        "total": 10
+      },
+      "clarity": {
+        "name": "分かりやすさ",
+        "agree": 9,
+        "compared": 10,
+        "total": 10
+      },
+      "lecture_mark": {
+        "name": "回の表示",
+        "agree": 10,
+        "compared": 10,
+        "total": 10
+      }
+    },
+    "overall": {
+      "agree": 7,
+      "compared": 10
+    },
+    "coverage": {
+      "covered": 10,
+      "total": 10
+    },
+    "review": [],
+    "mismatches": [
+      {
+        "id": "01",
+        "criterion": "grounding",
+        "name": "根拠",
+        "kind": "見逃し",
+        "judge": "pass",
+        "human": "fail",
+        "reason": "参照の用語集には「開発コンテナ」ではなく「devcontainer」として記載されており、用語集に直接的な記載がないと判断したため。"
+      },
+      {
+        "id": "02",
+        "criterion": "grounding",
+        "name": "根拠",
+        "kind": "見逃し",
+        "judge": "pass",
+        "human": "fail",
+        "reason": "用語集のエントリにあるSFTやPEFT（LoRAなど）をもとに正確に説明しており、矛盾や推測の断定がない。"
+      },
+      {
+        "id": "06",
+        "criterion": "grounding",
+        "name": "根拠",
+        "kind": "過検出",
+        "judge": "fail",
+        "human": "pass",
+        "reason": "用語集にない語に対し、用語集にはない旨を伝えていないため。"
+      },
+      {
+        "id": "06",
+        "criterion": "scope",
+        "name": "範囲",
+        "kind": "過検出",
+        "judge": "fail",
+        "human": "pass",
+        "reason": "講座外の質問であるにもかかわらず、質問に答えてしまっているため。"
+      },
+      {
+        "id": "08",
+        "criterion": "clarity",
+        "name": "分かりやすさ",
+        "kind": "見逃し",
+        "judge": "pass",
+        "human": "fail",
+        "reason": "質問に対して直接的かつ簡潔に分かりやすく書かれており、無駄な繰り返しや関係のない説明も見られない。"
+      },
+      {
+        "id": "10",
+        "criterion": "grounding",
+        "name": "根拠",
+        "kind": "過検出",
+        "judge": "fail",
+        "human": "pass",
+        "reason": "参照の期待するふるまいにおいて「講座外の事実なので答えない」とされているのに対し、回答は実際の緊急通報番号を答えてしまっているため。"
+      }
+    ]
+  }
+}
