@@ -1,0 +1,336 @@
+{
+  "summary": {
+    "condition": "tuned",
+    "n": 46,
+    "seconds": 50.3,
+    "in_keyword_ok": 0.4444,
+    "in_keyword_ok_reworded": 0.4643,
+    "in_keyword_ok_alias": 0.375,
+    "in_abstained": 0.0,
+    "out_abstained": 0.0
+  },
+  "rows": [
+    {
+      "question": "事前学習では何をするのですか？",
+      "kind": "reworded",
+      "raw": "大量の汎用テキストで、次のトークンを予測するようにモデルを学習させる最初の段階。言語の知識や一般的な常識の多くはここで身につく。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "SFT ではどんなデータを使いますか？",
+      "kind": "reworded",
+      "raw": "事前学習済みモデルが、特定のタスクや形式に合ったデータで追加学習させること。入力と望ましい出力のペア（例：質問と模範回答）で、モデルに出力を渡す。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "LoRA では何を学習するのですか？",
+      "kind": "reworded",
+      "raw": "事前学習済みの重みは固定したまま、重みの更新分を2つの小さな行列の積（低ランク行列）で表し、その小さな行列だけを学習するPEFT手法。学習するパラメータが少なく、学習結果（アダプタ）も小さいファイルで保存できる。本講座の第2回演習ではLoRAを扱う。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "QLoRA はどうやってメモリを節約するのですか？",
+      "kind": "reworded",
+      "raw": "モデルの重みを2ビットなどに量子化してメモリを節約する手法。より大きなモデルを小さなGPUで扱える。本講座の第2回演習ではモデルがGPUに載るためQLoRAを扱う。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "過学習にはどうやって気づきますか？",
+      "kind": "reworded",
+      "raw": "学習データにだけ過度に適合し、未知の入力に対する性能が落ちる状態。学習に使わない検証データで性能を測って気づく。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "エポックを増やしすぎるとどうなりますか？",
+      "kind": "reworded",
+      "raw": "学習データ全体を1周学習することを1エポックと数える。学習するパラメータと更新するメモリを固定したままデータを無限に追加し、そのたびにモデルを再起動する操作の総数を1エポックと数える。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "学習率を大きくしすぎるとどうなりますか？",
+      "kind": "reworded",
+      "raw": "1回の更新でパラメータをどれだけ動かすかを決めるハイパーパラメータ。大きすぎると学習が不安定になり、固定して良い。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "Hugging Face Hub では何ができますか？",
+      "kind": "reworded",
+      "raw": "公開されたモデルやデータセットを共有・ダウンロードできるプラットフォーム。オープンウェイトのモデルを入手したり、LoRAアダプタを公開したりするのに使われる。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "この講座では API キーをどこに登録しますか？",
+      "kind": "reworded",
+      "raw": "Google Cloud Console の登録式で、書きかけ когдаか確認できる。テスト用のキーで登録し、質問時に同じモデル・Region・アカウントに同じキーをコピーできる。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "この講座の演習で標準に使うモデルは何ですか？",
+      "kind": "reworded",
+      "raw": "aie-9000。モデルが固定したまま、ツールを呼び出して外部データを取得し、講座内容（ツールが返るJSON）を見て自分でモデルに戻す。データや形式の固定で、学習しないモデルを扱う設計。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "Pydantic AI で人の承認を挟むにはどうしますか？",
+      "kind": "reworded",
+      "raw": "Pydantic AIでは APIキーをモデルに渡す（Key field）。モデルが書きかけにキーを渡すためAPIを呼ばずに承認できる。本講座の第2回演習ではAPIを呼ばずにコード補完をさせる。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "Pydantic AI で構造化出力を受け取るには何を指定しますか？",
+      "kind": "reworded",
+      "raw": "OutputType をPydanticの型ファイルに書く。例：OutputType = JSON。モデルが出力を書き出すたびにダミーのJSONを生成し、サーバーが受け取る。本講座ではOutputType = JSON。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "TestModel は何のために使いますか？",
+      "kind": "reworded",
+      "raw": "Pydantic AIに含まれるテスト用の偽モデル。実際のLLMを呼ばずに、ツールを呼び出してダミーの回答を返す。APIキーや利用枠を使わずに、エージェントの配線（ツールが登録され、呼ばれ、結果が返るか）をテストできる。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "Pi の npm パッケージ名を教えてください。",
+      "kind": "reworded",
+      "raw": "@earendil-works/pi-wizard",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "Pi の組み込みツールは何ですか？",
+      "kind": "reworded",
+      "raw": "Piの起動コマンドは「pi [オプション」。オプションには・vv forツールのバージョンをShows by versionというコマンドがあり、vvで詳細を見る。本講座ではツールを呼び出すための関数ツールとして扱う。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "ADK の 2.0 では何が変わりましたか？",
+      "kind": "reworded",
+      "raw": "学習データに直接挿入するのではなく、テストモードでツールを呼び出してテストする。挿入はテスト環境に依存し、呼び出しは_adk interact のバージョン依存するコマンドラインツール。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "stdio と Streamable HTTP はどう違いますか？",
+      "kind": "reworded",
+      "raw": "MCPのクライアントとサーバーがやりとりする経路。stdioでは、クライアントがサーバーをサブプロセスとして起動し、標準入出力でメッセージを交換する（手軽で、同じ機械の中で使う）。Streamable HTTPでは、サーバーがURLで待ち受け、別のプロセスや別の機械から接続できる（公開範囲と認証を考える必要がある）。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "mcpServers 設定にはサーバーごとに何を書きますか？",
+      "kind": "reworded",
+      "raw": "サーバーごとに名前と、起動コマンドの（？） part を列挙する設定ファイル。MCPサーバーは同じ名前のサーバーを複数持つこともありますが、同じモード（クライアント/サーバー）の設定ファイルを別ファイルとして保存する。本講座では mcpServers を使う。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "複数の MCP サーバーのツール名が衝突しないようにするには？",
+      "kind": "reworded",
+      "raw": "サーバー之间を明確に区別するために、モデルが望ましくない名前を付けること。例：mcp_servers = [Name(server), description(server)] の形式。モデルが選んだ名前が最終的に使うツール名になる。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "fetch サーバーはどのコマンドで起動しますか？",
+      "kind": "reworded",
+      "raw": "node index.mjs",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "宿題にはどんなレベルがありますか？",
+      "kind": "reworded",
+      "raw": "AIE2026の宿題の構成。「基礎（講義内容の確認）」「実装（自分でコードを書く）」「発展（調査や試行）」の3レベルがあり、どれか1つに取り組めばその回の宿題は完了。原則として採点はしない。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "lec03-start のようなタグは何のためにありますか？",
+      "kind": "reworded",
+      "raw": "AIE2026の講座repoで、各回の演習開始時点のコードに付けているGitタグ（例：lec03-start）。前の回が終わっていなくても、このタグからブランチを作ればその回の演習を始められる。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "Codespaces を使わないときはどうするべきですか？",
+      "kind": "reworded",
+      "raw": "GitHub Copilotを無効にする設定ファイル。設定を戻すのは全身のアプリが同じモードに維持する。本講座では apps/agent/settings.json。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "Copilot Free にはどんな制限がありますか？",
+      "kind": "reworded",
+      "raw": "無料枠のレート制限。時間あたりの質問数やトークン数は制限されたまま作業できる限界。制限が厳しく見られるほど品質と容量の限界が表れる。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "ハルシネーションを抑えるにはどうしますか？",
+      "kind": "reworded",
+      "raw": "LLMが事実と異なる内容や存在しない情報を、もっともらしく生成してしまう現象。モデルが知らないこと（最新情報、組織や講座に固有の情報など）を聞いたときに起きやすい。外部データをツールで参照させる、根拠を示させる、評価で検出する、などで抑える。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "レート制限を超えるとどんなエラーが返りますか？",
+      "kind": "reworded",
+      "raw": "HTTP 429 のエラー。上限のトークン数やリクエスト数の合計が制限値に達したら、まずは説明メールを返す。本講座では API キーに書かれたルールで検出する。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "temperature を低くするとどうなりますか？",
+      "kind": "reworded",
+      "raw": "次のトークンを選ぶときのランダムさを減らす。低いLLMが選んだテキストが更多人数のトークンに絞られる。本講座の構成は「質問・模範回答・讨论・演習」の4つで、4 回の学習で温度を調整し、自分の判断で次の質問を提出する。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "ガードレールにはどんな方法がありますか？",
+      "kind": "reworded",
+      "raw": "エージェントが望ましくない行動や出力をしないように設ける制約や検査。指示文でのルール、ツールの権限を絞る、出力をチェックする、重要な操作の前に人の確認を挟む、などの方法がある。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "Low-Rank Adaptation とは何ですか？",
+      "kind": "alias",
+      "raw": "モデルの重みを小さな行列の積の型で保存し、その小さな行列だけを学習する手法。学習するパラメータが少なく、学習結果（アダプタ）も小さいファイルで保存できる。本講座の第2回演習ではモデルが同じ入力で出力が変わるため、その差を2つの小さな行列の積で表し、その小さな行列だけを学習する。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "追加学習とは何ですか？",
+      "kind": "alias",
+      "raw": "事前学習済みモデルを、特定のタスクや形式に合ったデータで追加で学習させること。出力の形式や口調、特定ドメインの振る舞いを身につけさせるのに向く。最新の事実を覚えさせる用途には、ツールやRAGで外部データを参照させるほうが向くことが多い。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "HITL とは何ですか？",
+      "kind": "alias",
+      "raw": "MCP（モデルとツールの間のプログラム）のクライアント・サーバー（uic/server uic --precise 6.x/x0.5.0）を同じファイルに絞ったコマンドラインツール。クライアントがツールを呼び出すように設計したサーバーをモデルに渡す（モデルが選んだJSONなツール）。同じrepoからどのpdm-versionのツールを扱うかを決める很简单設定ファイル（mcp_servers.json）。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "429エラーが出るのはなぜですか？",
+      "kind": "alias",
+      "raw": "PythonのAPIキーをコードに書かないこと。キーを識別するために使う関数やデータ型を呼ぶのは許可される。キーをコードに書くと429のレート制限が壊れる。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "docstring はツールでどんな役割をしますか？",
+      "kind": "alias",
+      "raw": "ツールの名前・説明・引数の型を見て、呼び方からツールを選べる設計。実行するもまた、呼び分けの引数で別のツールを呼ぶのが標準の手法。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "mcp.json には何を書きますか？",
+      "kind": "alias",
+      "raw": "MCPサーバーの名前と設定（ツールが登録されるべきモデルなど）。モデルが選んだら、このJSONからツールを呼び出し、実行結果は同じJSONに書き込む（For -agent mcp.json）。",
+      "abstained": false,
+      "keyword_ok": true
+    },
+    {
+      "question": "Coding Agent の中身はどんな構造ですか？",
+      "kind": "alias",
+      "raw": "LLMがコードを書くをツールとして使い、その結果を確認するサイクルをモデルに渡すこと。提案文、コメント、結果ファイル、統計をツールで呼び出して受け取る。本講座では学習データで作ったツールを「コード補完」として使う。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "Parameter-Efficient Fine-Tuning とは何ですか？",
+      "kind": "alias",
+      "raw": "モデルの重みを少ないデータで調整する手法。データで調整するのは学習が不安定になる。重みを少ないポイントで調整し、そのときのデータで良し悪しを判断し、そのときの重みを次のモデルに採用する。本講座の第2回演習ではParameter-Efficient Fine-Tuningを扱う。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "DPO とは何ですか？",
+      "kind": "out",
+      "raw": "プロンプトで学習する手法の発展型。LoRAで重みを計算し、テストデータで評価し、評価結果が良いときにモデルにツールとして導入する。本講座の第2回演習ではLoRAでモデルを学習し、テストデータで評価し、評価が良いのと断定。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "RLHF とは何ですか？",
+      "kind": "out",
+      "raw": "事前学習済みのモデルを、人の確認で追加学習させるためのサイクル。二次学習のデータは、モデルが口調や守るべき行動を判断する入力と、その判断の結果（同意書、報告など）。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "蒸留とは何ですか？",
+      "kind": "out",
+      "raw": "溶化的物質が気化し、その気化的なエネルギーを物質に返す現象。熱の量は、溶化の熱量と大きく変わる。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "Transformer とは何ですか？",
+      "kind": "out",
+      "raw": "ループでモデルを更新するPEFT手法。非調整するパラメータにGPUメモリを絞って更新し、絞ったメモリでモデルを更新し、絞ったメモリで非調整するパラメータに更新を適用する。より大きなモデルを小さなデータで扱える。本講座の第2回演習ではAPIでモデルを呼び出して更新する（最も単純な手法）。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "プロンプトインジェクションとは何ですか？",
+      "kind": "out",
+      "raw": "LLMがツール呼び出しの場所を固定させる技術。アプリの呼び出し書き込みや、検索の検索も同じテキストファイルに書くと、誰がアプリを呼び出せるかに関わらず結果が同じになる。本講座の第2回演習ではツールを呼び出すように目にする。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "ベクトルデータベースとは何ですか？",
+      "kind": "out",
+      "raw": "大量のテキストや画像を共通の枠で扱える計算機クラス。MongoDBのPrime nabusが ejemplo。オープンソース且う開発環境で、設定だけでデータベースを構築し、新しい出力スタイルやツールを試し、実際に使うときに再構築する。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "pytest とは何ですか？",
+      "kind": "out",
+      "raw": "Pythonでテストするフレームワーク。pytestがツール（ツール名：testname）やグループ（グループ名：testname）を識別し、グループに属するテストを同じ権限でテストする設計。テストの数に上限がない。本講座第3回の本線。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "Mixture of Experts とは何ですか？",
+      "kind": "out",
+      "raw": "複数のリソースやデータソースを、ある型やタスクに合った1つのモデルで扱う手法。それぞれのソースに絞ったモデルを、某種程度独立に持ち、その分担を測って、望ましい状態（同じ出力で異なる入力でない）を達させる。第5回で、MCPのクライアントをMixture of Expertsとして扱う。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "AIE2026 の第4回の宿題の締切はいつですか？",
+      "kind": "out",
+      "raw": "2026年10月の宿題の締切は10月27日（土）の18:00で、作業ブランチから自分のforkのmainへPRを出して提出する。提出は完了しないよう自分で確認する。",
+      "abstained": false,
+      "keyword_ok": false
+    },
+    {
+      "question": "AIE2026 の講師は誰ですか？",
+      "kind": "out",
+      "raw": "AIE2026の講義は、原則として各国の国立技術技術専門学校や国立技術技術専門学校との併演が認められる講座で、本国の国立技術技術専門学校が講義会場と設備を確保し、本国の法律と伝統を尊重した講義を行う。外国の技術技術専門学校が講義会場や設備を扱うことは、本国の法律と伝統に反する考え方を示すため認められない。",
+      "abstained": false,
+      "keyword_ok": false
+    }
+  ]
+}

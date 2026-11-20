@@ -1,0 +1,660 @@
+{
+  "summary": {
+    "condition": "tuned+retrieval",
+    "n": 46,
+    "seconds": 45.3,
+    "in_keyword_ok": 0.7222,
+    "in_keyword_ok_reworded": 0.8571,
+    "in_keyword_ok_alias": 0.25,
+    "in_abstained": 0.0,
+    "out_abstained": 0.0,
+    "retrieval_hit1": 0.8333,
+    "retrieval_hit3": 1.0
+  },
+  "rows": [
+    {
+      "question": "事前学習では何をするのですか？",
+      "kind": "reworded",
+      "raw": "大量の汎用テキストで、次のトークンを予測するようにモデルを学習させる最初の段階。言語の知識や一般的な常識の多くはここで身につく。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "pretraining",
+        "lora",
+        "fine-tuning"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "SFT ではどんなデータを使いますか？",
+      "kind": "reworded",
+      "raw": "モデルの事前学習済みモデル（通常はテキストベースのLLM）と、モデルが同じ形式に書き出される入力と、同じ形式で答えるよう設計された出力の2つをペアにしてモデルに渡す。その入力-出力ペアを学習データとして使う。モデルが同じ形式に書き出せるようにしたタスクや出力形式が合うほど、使うデータと出力形式が合う。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "sft",
+        "fine-tuning",
+        "peft"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "LoRA では何を学習するのですか？",
+      "kind": "reworded",
+      "raw": "アダプタの行列を2つ以上の行列の積で表し、その積だけを学習するPEFT手法。本講座の第2回演習ではLoRAを扱う。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "qlora",
+        "lora",
+        "lora-rank"
+      ],
+      "hit1": false,
+      "hit3": true
+    },
+    {
+      "question": "QLoRA はどうやってメモリを節約するのですか？",
+      "kind": "reworded",
+      "raw": "モデルの重みを4ビットなどに量子化してメモリを節約したうえで、LoRAで学習する手法。より大きなモデルを小さなGPUで扱える。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "qlora",
+        "lora-rank",
+        "lora"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "過学習にはどうやって気づきますか？",
+      "kind": "reworded",
+      "raw": "学習に使わない検証データで性能を測って気づく。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "overfitting",
+        "answer-md",
+        "learning-rate"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "エポックを増やしすぎるとどうなりますか？",
+      "kind": "reworded",
+      "raw": "学習データ全体を1周学習することを1エポックと数える。回数を増やしすぎると過学習しやすい。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "epoch",
+        "learning-rate",
+        "tool-namespace"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "学習率を大きくしすぎるとどうなりますか？",
+      "kind": "reworded",
+      "raw": "学習が不安定になり、進みが遅い。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "learning-rate",
+        "epoch",
+        "peft"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "Hugging Face Hub では何ができますか？",
+      "kind": "reworded",
+      "raw": "公開されたモデルやデータセットを共有・ダウンロードできるプラットフォーム。オープンウェイトのモデルを入手したり、LoRAアダプタを公開したりするのに使われる。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "huggingface-hub",
+        "codespaces",
+        "github-copilot"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "この講座では API キーをどこに登録しますか？",
+      "kind": "reworded",
+      "raw": "Codespaces secretに登録する。環境変数 GEMINI_API_KEY として読み込む。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "api-key",
+        "api",
+        "codespaces-secret"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "この講座の演習で標準に使うモデルは何ですか？",
+      "kind": "reworded",
+      "raw": "既定モデルは AIE2026の演習と宿題で標準に使うモデルは gemini-3.5-flash-lite。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "default-model",
+        "qlora",
+        "lec-start-tag"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "Pydantic AI で人の承認を挟むにはどうしますか？",
+      "kind": "reworded",
+      "raw": "requires_approval=True を指定したツールを使う。モデルが同意を求めると、モデルがTrueを返すか、応答を停止させるか、またはツールを呼び出すを渡す。本講座第4回の本線。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "pydantic-ai",
+        "human-in-the-loop",
+        "structured-output"
+      ],
+      "hit1": false,
+      "hit3": true
+    },
+    {
+      "question": "Pydantic AI で構造化出力を受け取るには何を指定しますか？",
+      "kind": "reworded",
+      "raw": "output_type にPydanticモデルを指定する。モデルの型とJSONスキーマを同じにすること。モデルがJSONを返すツールはモデルの引数で定義し、プログラムでその返りをモデルに渡す（ツールが呼ばれたときに行う）。本講座第4回の本線。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "pydantic-ai",
+        "structured-output",
+        "human-in-the-loop"
+      ],
+      "hit1": false,
+      "hit3": true
+    },
+    {
+      "question": "TestModel は何のために使いますか？",
+      "kind": "reworded",
+      "raw": "LLMを呼ばずに、ツールを呼び出してダミーの回答を返すモデル。APIキーや利用枠を使わずに、エージェントの配線をテストできる。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "test-model",
+        "mcp",
+        "codespaces-secret"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "Pi の npm パッケージ名を教えてください。",
+      "kind": "reworded",
+      "raw": "@earendil-works/pi-coding-agent",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "pi",
+        "api",
+        "api-key"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "Pi の組み込みツールは何ですか？",
+      "kind": "reworded",
+      "raw": "Piのread、write、edit、bashの4つをツールとして使うこと。組み込みツールはプロセスの中で動くが、外部ツールは機械をまたいで呼び出す。本講座ではCodespaces secretに登録したAPIキーをGEMINI_API_KEYとして環境変数として使う。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "external-tool",
+        "harness",
+        "api-key"
+      ],
+      "hit1": false,
+      "hit3": true
+    },
+    {
+      "question": "ADK の 2.0 では何が変わりましたか？",
+      "kind": "reworded",
+      "raw": "本講座の宿題レベルで扱う破壊的変更。本講座の用語集では「ADKのバージョン」とは別に書いている。本講座の用語集では「2.0」とあるが、実際のGoogle ADKは1.x系のバージョン管理がある。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "adk",
+        "lora",
+        "temperature"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "stdio と Streamable HTTP はどう違いますか？",
+      "kind": "reworded",
+      "raw": "stdioは、同じ機械の中でツールを呼び出すだけで接続できる。検索の質問は「ツール名:説明文」で与える。本講座の演習はstdioで、同じフォルムの中で作業できる。\n\nStreamable HTTPでは、サーバーがURLで待ち受け、別のプロセスや別の機械から接続できる。検索の質問は「ツール名:説明文」で与える。公開範囲と認証を考える必要がある。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "mcp-transport",
+        "system-prompt",
+        "lec-start-tag"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "mcpServers 設定にはサーバーごとに何を書きますか？",
+      "kind": "reworded",
+      "raw": "サーバーの名前・起動コマンド（stdio）または接続先URL（HTTP）。Claude Desktop、Cursor、Pydantic AIなどが同じ mcpServers 形式を読む（VS Code / Copilot Chatは servers 形式）。本講座では app/mcp_servers.json。設定を数行足すだけでツールが増えるのがMCPの体験の核心。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "mcp-config",
+        "mcp-server",
+        "fetch-server"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "複数の MCP サーバーのツール名が衝突しないようにするには？",
+      "kind": "reworded",
+      "raw": "サーバー名を同じにしない、やツールを不同的に使う、プロンプトで説明文を書く、モデルに渡す説明を絞る。本講座では設定ファイルのサーバー名を自動で付ける。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "mcp-server",
+        "tool-namespace",
+        "mcp-client"
+      ],
+      "hit1": false,
+      "hit3": true
+    },
+    {
+      "question": "fetch サーバーはどのコマンドで起動しますか？",
+      "kind": "reworded",
+      "raw": "uvx mcp-server-fetch init settings.json\n（設定ファイルに書くだけで外部ツールが増える例）",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "fetch-server",
+        "mcp-server",
+        "mcp-client"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "宿題にはどんなレベルがありますか？",
+      "kind": "reworded",
+      "raw": "基礎（講義内容の確認）、実装（自分でコードを書く）、発展（調査や試行）の3段階があり、どれか1つに取り組めばその回の宿題は完了。原則として採点はしない。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "homework-levels",
+        "answer-md",
+        "codespaces"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "lec03-start のようなタグは何のためにありますか？",
+      "kind": "reworded",
+      "raw": "前の回が終わっていなくても、その回の演習からブランチを作ればその回の演習を始められる。タグの名前は回の番号-開始時間（例：lec03-start）で、git tag で読み出せる。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "lec-start-tag",
+        "branch",
+        "environment-variable"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "Codespaces を使わないときはどうするべきですか？",
+      "kind": "reworded",
+      "raw": "自分のマシンでCodespacesを起動し、環境変数 GEMINI_API_KEY と同じように設定して使う。本講座の環境はhttps://github.com/codingschool/Codespaces で起動し、環境が固定される（起動中に設定するrepoを選め、起動中にCodespacesを起動し再度設定するrepoを選め）。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "codespaces",
+        "codespaces-secret",
+        "api-key"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "Copilot Free にはどんな制限がありますか？",
+      "kind": "reworded",
+      "raw": "無料のCopilotは、チャットでの質問の数と補完の回数に上限がある。より詳しい説明は「GitHub Copilot」の抜粋に帰着する。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "github-copilot",
+        "mcp",
+        "pi"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "ハルシネーションを抑えるにはどうしますか？",
+      "kind": "reworded",
+      "raw": "外部データをツールで呼ぶ、根拠を示させる、評価で検出する、などで抑える。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "hallucination",
+        "ai-engineering",
+        "learning-rate"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "レート制限を超えるとどんなエラーが返りますか？",
+      "kind": "reworded",
+      "raw": "呼び出し数を増やしすぎるとHTTP 429などのエラーが返る。無料枠は特に制限が厳しく、1つの質問で複数回LLMを呼ぶため上限に達しやすい。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "rate-limit",
+        "token",
+        "guardrail"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "temperature を低くするとどうなりますか？",
+      "kind": "reworded",
+      "raw": "同じ質問で回答が変わる理由の一つになる。安定した回答を期待する。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "temperature",
+        "learning-rate",
+        "peft"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "ガードレールにはどんな方法がありますか？",
+      "kind": "reworded",
+      "raw": "指示文でのルール、ツールの権限を絞る、出力をチェックする、重要な操作の前に人の確認を挟む、などの方法がある。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "guardrail",
+        "codespaces",
+        "agent-loop"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "Low-Rank Adaptation とは何ですか？",
+      "kind": "alias",
+      "raw": "LoRAの本講座の第2回演習では扱うPEFT手法。事前学習済みの重みを固定し、学習するパラメータが少なく、学習結果（アダプタ）も小さいファイルで保存できる。本講座の第2回演習ではLoRAを扱う。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "lora",
+        "lora-rank",
+        "api"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "追加学習とは何ですか？",
+      "kind": "alias",
+      "raw": "モデルを、特定のタスクや形式に合ったデータで、その後の運用や評価で使うべきか、あるいは外部データを参照させるほうが向くか、判断して学習するのにかかるコストとリスクを調整する調整手法。学習データにだけ過度に適合し、未知の入力に対する性能が落ちる状態を指す。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "fine-tuning",
+        "learning-rate",
+        "overfitting"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "HITL とは何ですか？",
+      "kind": "alias",
+      "raw": "Pydantic AIでツールを呼び出すための設定値。True にすると人間の確認を求められる。設定ファイルの [.pydantic_settings/APPsettings.json](file:///home/development/PydanticAI/setup.py/appsettings.json) にあり、環境変数 APP_SETTINGS_ENABLE_HUMAN_IN_THE_LOOP で切り替える。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "human-in-the-loop",
+        "agent-loop",
+        "github-copilot"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "429エラーが出るのはなぜですか？",
+      "kind": "alias",
+      "raw": "一定時間あたりに呼び出せるリクエスト数やトークン数の上限。上限に達するとHTTP 429などのエラーが返る。無料枠は特に制限が厳しく、1つの質問で複数回LLMを呼ぶため、トークン数や複数質問の数を数えるのが容易になる。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "rate-limit",
+        "mcp-server",
+        "learning-rate"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "docstring はツールでどんな役割をしますか？",
+      "kind": "alias",
+      "raw": "工具的用途や引数の意味をモデルに伝える文章。モデルはツールを呼ぶ引数で、どのツールで呼ぶかを決める。呼ばずにツールは self() として実行される。呼ぶ前に用語集中的に把握しておく。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "tool-description",
+        "system-prompt",
+        "ai-engineering"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "mcp.json には何を書きますか？",
+      "kind": "alias",
+      "raw": "mcpServers の設定ファイル。サーバーごとにツールの名前・起動コマンド（stdio）またはURL（HTTP）を書く。設定を数行足すだけでツールが増えるのがMCPの体験の核心。本講座では app/mcp_servers.json。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "mcp-config",
+        "mcp-client",
+        "devcontainer"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "Coding Agent の中身はどんな構造ですか？",
+      "kind": "alias",
+      "raw": "LLM＋ループ＋ツールというAIエージェントの構造そのもの。指示を伝える（プロンプト）＋実行を繰り返すのにつなぐツールをツール関数として付くことで、複数ステップの作業を自律的に進める。Claude Code、Copilotのエージェントモード、Piなどがある。",
+      "abstained": false,
+      "keyword_ok": true,
+      "retrieved": [
+        "pi",
+        "coding-agent",
+        "adk"
+      ],
+      "hit1": false,
+      "hit3": true
+    },
+    {
+      "question": "Parameter-Efficient Fine-Tuning とは何ですか？",
+      "kind": "alias",
+      "raw": "GPUメモリと保存容量を大きく減らせるために、必要なGPUメモリと保存容量を小さくする手法の総称。LoRAが代表例。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "peft",
+        "fine-tuning",
+        "sft"
+      ],
+      "hit1": true,
+      "hit3": true
+    },
+    {
+      "question": "DPO とは何ですか？",
+      "kind": "out",
+      "raw": "LLMがツールを呼び出して、その結果を見てパラメータを更新させるもの。DPOは「指示で動くLLM（RePro）」の発展版。1つの質問でより多くのパラメータを更新でき、結果が評価で回数を数えるため、評価が安定するほどDPOの学習が安定する。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "epoch",
+        "fork",
+        "learning-rate"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "RLHF とは何ですか？",
+      "kind": "out",
+      "raw": "AIE2026の演習第3回の演題。モデルを質問に答える能力を高めるために、学習をテキスト入力-出力で切り離した状態で進める。結果を人間に渡すことで良し悪しを判断し、その結果で学習させる。本講座の用語集の抜粋から答えられる。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "fetch-server",
+        "huggingface-hub",
+        "learning-rate"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "蒸留とは何ですか？",
+      "kind": "out",
+      "raw": "AIE2026の演習第3回の宿題。宿題の提出は講義の提出より後に行う。提出前に用語集に必ず取り込むべきこと。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "learning-rate",
+        "code-completion",
+        "context-window"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "Transformer とは何ですか？",
+      "kind": "out",
+      "raw": "LLMをテキストの増加を助けられるモデル。単語や文字の断片を序列で扱う。学習にはテキスト入力と自分の出力を比較する負の学習が必須。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "system-prompt",
+        "fork",
+        "answer-md"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "プロンプトインジェクションとは何ですか？",
+      "kind": "out",
+      "raw": "LLMが講座の内容や講座の構造を知らないで、特定の質問に答えるのを助ける手法。モデルが知らないこと（自分の講座とは不是）を聞いたときに、プロンプトで方向を定めることでハルシネーションを減らせる。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "prompt",
+        "ai-engineering",
+        "hallucination"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "ベクトルデータベースとは何ですか？",
+      "kind": "out",
+      "raw": "モデルのトークン数やレート制限を気にしない、と考える人のための秘密のツール。MCPの externalToolId にPythonのnameを同じにする。宿題の質問には入れる但し書きで呼ぶ。利用枠はなし。回答は読めない。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "agent-loop",
+        "external-tool",
+        "default-model"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "pytest とは何ですか？",
+      "kind": "out",
+      "raw": "テスト用のツール。Pydantic AIのテスト環境では、APIキーや利用枠を使わずに、エージェントの配線（ツールが登録され、呼ばれ、結果が返るか）をテストできる。test_main() を実行すると、すべてのツールが登録され、呼び分けが作られる。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "system-prompt",
+        "test-model",
+        "code-completion"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "Mixture of Experts とは何ですか？",
+      "kind": "out",
+      "raw": "AIE2026の演習第3回の演題。同じ質問に、異なるエポックで学習し、結果を統合して回答する手法。本講座第5回で、用語集の検索をMCPサーバーにして、モデルに渡す質問で体験する。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "temperature",
+        "fetch-server",
+        "mcp"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "AIE2026 の第4回の宿題の締切はいつですか？",
+      "kind": "out",
+      "raw": "3月の第2回の宿題。原則として採点はしない。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "homework-levels",
+        "answer-md",
+        "default-model"
+      ],
+      "hit1": false,
+      "hit3": false
+    },
+    {
+      "question": "AIE2026 の講師は誰ですか？",
+      "kind": "out",
+      "raw": "講座repoのforkのmainに「lecture_Nn-start」のタグがあるとき、そのタグからブランチを作ってその回の演習を始める。本講座では講座repoのmainから「lec03-start」のタグを回数を増やし、そのブランチで演習を回す。",
+      "abstained": false,
+      "keyword_ok": false,
+      "retrieved": [
+        "lec-start-tag",
+        "default-model",
+        "answer-md"
+      ],
+      "hit1": false,
+      "hit3": false
+    }
+  ]
+}
