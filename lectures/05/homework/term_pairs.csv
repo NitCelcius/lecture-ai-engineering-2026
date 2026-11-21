@@ -1,222 +1,248 @@
-﻿a,b,出た回数,出た実行,label,迷い,理由
-LLM,大規模言語モデル,10,v1 v2_2 v3_1 v3_2 neg_1 neg_2 neg_3 plain_1 plain_2 plain_3,y,,略称と日本語訳
-RAG,検索拡張生成,10,v1 v2_2 v3_1 v3_2 neg_1 neg_2 neg_3 plain_1 plain_2 plain_3,y,,略称と日本語訳
-DL,深層学習,9,v1 v2_2 v3_1 neg_1 neg_2 neg_3 plain_1 plain_2 plain_3,y,,略称と日本語訳
-ML,機械学習,8,v1 v3_1 neg_1 neg_2 neg_3 plain_1 plain_2 plain_3,y,,略称と日本語訳
-FT,Fine-Tuning,7,v1 v2_2 v3_1 neg_2 plain_1 plain_2 plain_3,y,,略称と正式名
-LLM,Large Language Models,7,v1 v3_1 v3_2 neg_1 plain_1 plain_2 plain_3,y,,略称と正式名
-Large Language Models,大規模言語モデル,7,v1 v3_1 v3_2 neg_1 plain_1 plain_2 plain_3,y,,英語と日本語
-RAG,Retrieval-Augmented Generation,7,v1 v3_1 v3_2 neg_1 plain_1 plain_2 plain_3,y,,略称と正式名
-Retrieval-Augmented Generation,検索拡張生成,7,v1 v3_1 v3_2 neg_1 plain_1 plain_2 plain_3,y,,英語と日本語
-Chain of Thought,CoT,6,v1 v3_1 neg_1 neg_2 plain_2 plain_3,y,,略称と正式名
-DL,Deep Learning,6,v1 v3_1 neg_1 plain_1 plain_2 plain_3,y,,略称と正式名
-Deep Learning,深層学習,6,v1 v3_1 neg_1 plain_1 plain_2 plain_3,y,,英語と日本語
-ML,Machine Learning,6,v1 v3_1 neg_1 plain_1 plain_2 plain_3,y,,略称と正式名
-Machine Learning,機械学習,6,v1 v3_1 neg_1 plain_1 plain_2 plain_3,y,,英語と日本語
-Agent,エージェント,5,v1 neg_1 neg_2 neg_3 plain_1,y,,英語と日本語
-プロンプト,指示文,5,v1 neg_2 neg_3 plain_1 plain_2,n,迷い,講座では指示文=system prompt の意味で使っており、プロンプト全般より狭い
-JSON,JSON形式,4,v2_2 neg_1 neg_2 plain_3,y,迷い,データ形式としての JSON を指すなら同じ
-JSON mode,JSON形式,4,v1 plain_1 plain_2 plain_3,n,迷い,JSON mode は API の機能名で、形式そのものではない
-RL,強化学習,4,v1 neg_3 plain_1 plain_3,y,,略称と日本語訳
-API,APIキー,3,v1 neg_2 plain_3,n,,
-LLM,言語モデル,3,v1 plain_1 plain_3,n,迷い,言語モデルは LLM より広い
-Large Language Models,言語モデル,3,v1 plain_1 plain_3,n,迷い,同上
-MCP,モデルコンテキストプロトコル,3,neg_2 plain_2 plain_3,y,,略称と日本語表記
-大規模言語モデル,言語モデル,3,v1 plain_1 plain_3,n,迷い,同上
-AI,生成 AI,2,neg_2 plain_3,n,,
-AI agents,AI エージェント,2,plain_1 plain_2,y,,英語と日本語（単複の違いのみ）
-AI agents,Agent,2,plain_1 plain_2,y,迷い,講座の文脈では Agent は AI エージェントを指す
-AI agents,自律エージェント,2,plain_1 plain_2,n,,
-AI エージェント,Agent,2,plain_1 plain_2,y,迷い,同上
-AI エージェント,自律エージェント,2,plain_1 plain_2,n,,
-AI モデル,LLMモデル,2,neg_2 plain_2,n,,
-AI モデル,ML モデル,2,neg_2 plain_2,n,,
-AI モデル,モデル,2,neg_2 plain_2,n,,
-Agent,自律エージェント,2,plain_1 plain_2,n,,
-Fine-Tuning,SFT,2,v3_2 neg_1,n,,
-Human in the loop,human-in / on / out-of-the-loop,2,v1 plain_3,n,迷い,後者は in/on/out の3つを並べた語で、in だけではない
-JSON,JSON Schema,2,v1 plain_3,n,,
-LLM,LLMモデル,2,plain_1 plain_3,y,迷い,冗長な言い方だが同じものを指す
-LLMモデル,Large Language Models,2,plain_1 plain_3,y,迷い,同上
-LLMモデル,ML モデル,2,neg_2 plain_2,n,,
-LLMモデル,モデル,2,neg_2 plain_2,n,,
-LLMモデル,大規模言語モデル,2,plain_1 plain_3,y,迷い,同上
-LLMモデル,言語モデル,2,plain_1 plain_3,n,,
-MCP,MCP サーバー,2,v1 neg_2,n,迷い,プロトコルとそのサーバーで、全体と部分
-MCP Server,MCP サーバー,2,v1 plain_1,y,,英語と日本語
-ML モデル,モデル,2,neg_2 plain_2,n,,
-Structured output,Structured outputs,2,v1 plain_2,y,,単複の違い
-auto mode,auto モード,2,v1 plain_3,y,,英語と日本語
-トークン,仮想トークン,2,neg_3 plain_2,n,,
-/goal,goal モード,1,v1,y,迷い,/goal コマンドで入るモードを指す
-4bit,QLoRA,1,v1,n,,
-AGENTS.md,CLAUDE.md,1,v1,n,,
-AGENTS.md,MEMORY.md,1,v1,n,,
-AGENTS.md,README,1,v1,n,,
-AGENTS.md,SKILL.md,1,v1,n,,
-AGENTS.md,program.md,1,v1,n,,
-AGENTS.md,指示ファイル,1,v1,n,,
-AI Engineering,AIエンジニアリング,1,plain_2,y,,英語とカタカナ
-AI Engineering,MLエンジニアリング,1,plain_2,n,,
-AI agents,エージェント,1,plain_1,y,迷い,同上
-AI model,AI モデル,1,plain_2,y,,英語とカタカナ
-AI model,LLMモデル,1,plain_2,n,,
-AI model,ML モデル,1,plain_2,n,,
-AI model,ベースモデル,1,plain_2,n,,
-AI model,モデル,1,plain_2,n,,
-AI エージェント,エージェント,1,plain_1,y,迷い,同上
-AI モデル,ベースモデル,1,plain_2,n,,
-AIエンジニアリング,MLエンジニアリング,1,plain_2,n,,
-Anthropic,Claude,1,v1,n,,
-Anthropic,Claude 3.7 Sonnet,1,v1,n,,
-Anthropic,Claude Code,1,v1,n,,
-Anthropic,Haiku,1,v1,n,,
-Anthropic,Opus,1,v1,n,,
-Audio-Text-to-Text,マルチモーダル,1,v1,n,,
-Audio-Text-to-Text,画像生成,1,v1,n,,
-Audio-Text-to-Text,画像認識,1,v1,n,,
-Audio-Text-to-Text,音声認識,1,v1,n,,
-Bash,Linux,1,v1,n,,
-Bash,Shell,1,v1,n,,
-Bash,シェル,1,v1,n,,
-CLAUDE.md,MEMORY.md,1,v1,n,,
-CLAUDE.md,README,1,v1,n,,
-CLAUDE.md,SKILL.md,1,v1,n,,
-CLAUDE.md,program.md,1,v1,n,,
-CLAUDE.md,指示ファイル,1,v1,n,,
-ChatGPT,GPT,1,v1,n,,
-ChatGPT,GPT-4,1,v1,n,,
-ChatGPT,GPT-5,1,v1,n,,
-ChatGPT,OpenAI,1,v1,n,,
-ChatGPT,o1,1,v1,n,,
-ChatGPT,o3,1,v1,n,,
-Claude,Claude 3.7 Sonnet,1,v1,n,,
-Claude,Claude Code,1,v1,n,,
-Claude,Haiku,1,v1,n,,
-Claude,Opus,1,v1,n,,
-Claude 3.7 Sonnet,Claude Code,1,v1,n,,
-Claude 3.7 Sonnet,Haiku,1,v1,n,,
-Claude 3.7 Sonnet,Opus,1,v1,n,,
-Claude Code,Claude Code CLI,1,plain_3,y,迷い,Claude Code の CLI 版で、講座では同じものを指す
-Claude Code,Haiku,1,v1,n,,
-Claude Code,Opus,1,v1,n,,
-Codespaces,Cursor,1,v1,n,,
-Codespaces,VS Code,1,v1,n,,
-Cursor,VS Code,1,v1,n,,
-DeepSeek,Gemini,1,v1,n,,
-DeepSeek,Gemma,1,v1,n,,
-DeepSeek,Google,1,v1,n,,
-DeepSeek,Llama,1,v1,n,,
-DeepSeek,Qwen,1,v1,n,,
-Docker,コンテナ,1,v1,n,,
-FT,Full Fine-Tuning,1,v1,n,,
-Few-shot,ゼロショット,1,v1,n,,
-Fine-Tuning,Full Fine-Tuning,1,v1,n,,
-Fine-Tuning,事後学習,1,neg_1,n,,
-Fine-Tuning,追加学習,1,neg_1,n,,
-GPT,GPT-4,1,v1,n,,
-GPT,GPT-5,1,v1,n,,
-GPT,OpenAI,1,v1,n,,
-GPT,o1,1,v1,n,,
-GPT,o3,1,v1,n,,
-GPT-4,GPT-5,1,v1,n,,
-GPT-4,OpenAI,1,v1,n,,
-GPT-4,o1,1,v1,n,,
-GPT-4,o3,1,v1,n,,
-GPT-5,OpenAI,1,v1,n,,
-GPT-5,o1,1,v1,n,,
-GPT-5,o3,1,v1,n,,
-GPU,計算基盤,1,v1,n,,
-GPU,計算資源,1,v1,n,,
-Gemini,Gemma,1,v1,n,,
-Gemini,Google,1,v1,n,,
-Gemini,Llama,1,v1,n,,
-Gemini,Qwen,1,v1,n,,
-Gemma,Google,1,v1,n,,
-Gemma,Llama,1,v1,n,,
-Gemma,Qwen,1,v1,n,,
-Git,GitHub,1,v1,n,,
-Git,コミット,1,v1,n,,
-Git,プルリクエスト,1,v1,n,,
-GitHub,コミット,1,v1,n,,
-GitHub,プルリクエスト,1,v1,n,,
-Google,Llama,1,v1,n,,
-Google,Qwen,1,v1,n,,
-Haiku,Opus,1,v1,n,,
-JSON,JSON mode,1,plain_3,n,,
-JSON Schema,JSON mode,1,plain_3,n,,
-JSON Schema,JSON形式,1,plain_3,n,,
-JSON mode,Structured output,1,plain_2,n,,
-JSON mode,Structured outputs,1,plain_2,n,,
-JSON形式,Structured output,1,plain_2,n,,
-JSON形式,Structured outputs,1,plain_2,n,,
-LLMモデル,ベースモデル,1,plain_2,n,,
-Linux,Shell,1,v1,n,,
-Linux,シェル,1,v1,n,,
-Llama,Qwen,1,v1,n,,
-LoRA,低ランク,1,v1,n,,
-MCP,MCP Server,1,v1,n,迷い,同上
-MCP サーバー,モデルコンテキストプロトコル,1,neg_2,n,迷い,同上
-MEMORY.md,README,1,v1,n,,
-MEMORY.md,SKILL.md,1,v1,n,,
-MEMORY.md,program.md,1,v1,n,,
-MEMORY.md,指示ファイル,1,v1,n,,
-ML モデル,ベースモデル,1,plain_2,n,,
-OpenAI,o1,1,v1,n,,
-OpenAI,o3,1,v1,n,,
-PyTorch,pytest,1,v1,n,,
-README,SKILL.md,1,v1,n,,
-README,program.md,1,v1,n,,
-README,指示ファイル,1,v1,n,,
-RLHF,人手評価,1,v1,n,,
-Retrieval,検索,1,v1,n,,
-SFT,事後学習,1,neg_1,n,,
-SFT,追加学習,1,neg_1,n,,
-SKILL.md,program.md,1,v1,n,,
-SKILL.md,指示ファイル,1,v1,n,,
-Shell,シェル,1,v1,y,,英語とカタカナ
-Structured Outputs in the API,Structured output,1,v1,n,迷い,前者は API の機能のページ名
-Structured Outputs in the API,Structured outputs,1,v1,n,迷い,同上
-Structured Outputs in the API,構造化出力,1,v1,n,迷い,同上
-Structured output,構造化出力,1,v1,y,,英語と日本語
-Structured outputs,構造化出力,1,v1,y,,英語と日本語
-Transformer,トランスフォーマー,1,v1,y,,英語とカタカナ
-o1,o3,1,v1,n,,
-program.md,指示ファイル,1,v1,n,,
-エージェント,自律エージェント,1,plain_1,n,,
-エージェントによる自動化,自動化,1,plain_2,n,,
-コミット,プルリクエスト,1,v1,n,,
-コンテキスト,文脈,1,v1,n,迷い,講座のコンテキストはモデルへの入力全体で、一般語の文脈とは違う
-サンドボックス,隔離環境,1,v1,y,迷い,サンドボックスの日本語説明
-テスト損失,誤差の累積,1,v1,n,,
-データ,データセット,1,v1,n,,
-データ,学習データ,1,v1,n,,
-データセット,学習データ,1,v1,n,,
-トークン化,トークン数,1,v1,n,,
-ナレッジカットオフ,古い情報,1,v1,n,,
-ハルシネーション,情報漏えい,1,v1,n,,
-パラメータ,パラメータ数,1,v1,n,,
-パラメータ,重み,1,v1,n,,
-パラメータ数,重み,1,v1,n,,
-プレフィックスチューニング,プロンプトチューニング,1,v1,n,,
-ベクトル,埋め込み,1,v1,n,,
-ベースモデル,モデル,1,plain_2,n,,
-マルチモーダル,画像生成,1,v1,n,,
-マルチモーダル,画像認識,1,v1,n,,
-マルチモーダル,音声認識,1,v1,n,,
-モデルの評価,評価,1,v1,n,,
-モデルの評価,評価指標,1,v1,n,,
-モデルの評価,評価方法,1,v1,n,,
-モデル作成,蒸留,1,v1,n,,
-レイテンシ,応答速度,1,v1,n,迷い,レイテンシは遅延時間で、速度とは向きが逆
-レイテンシ,推論,1,v1,n,,
-事後学習,追加学習,1,neg_1,n,,
-応答速度,推論,1,v1,n,,
-汎用チャットAI,過剰適合,1,v1,n,,
-画像生成,画像認識,1,v1,n,,
-画像生成,音声認識,1,v1,n,,
-画像認識,音声認識,1,v1,n,,
-計算基盤,計算資源,1,v1,n,,
-評価,評価指標,1,v1,n,,
-評価,評価方法,1,v1,n,,
-評価指標,評価方法,1,v1,n,,
+﻿a,b,出た回数,出た実行,label,迷い,理由,新規,人間
+RAG,検索拡張生成,19,v1 v2_2 v3_1 v3_2 neg_1 neg_2 neg_3 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,略称と日本語訳,,y
+DL,深層学習,18,v1 v2_2 v3_1 neg_1 neg_2 neg_3 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,略称と日本語訳,,y
+LLM,大規模言語モデル,18,v1 v2_2 v3_1 v3_2 neg_1 neg_2 neg_3 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_3,y,,略称と日本語訳,,y
+FT,Fine-Tuning,16,v1 v2_2 v3_1 neg_2 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,略称と正式名,,y
+LLM,Large Language Models,16,v1 v3_1 v3_2 neg_1 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,略称と正式名,,y
+ML,機械学習,16,v1 v3_1 neg_1 neg_2 neg_3 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_2 C_noreason_3,y,,略称と日本語訳,,y
+RAG,Retrieval-Augmented Generation,16,v1 v3_1 v3_2 neg_1 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,略称と正式名,,y
+Retrieval-Augmented Generation,検索拡張生成,16,v1 v3_1 v3_2 neg_1 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,英語と日本語,,y
+Chain of Thought,CoT,15,v1 v3_1 neg_1 neg_2 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,略称と正式名,,y
+DL,Deep Learning,15,v1 v3_1 neg_1 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,略称と正式名,,y
+Deep Learning,深層学習,15,v1 v3_1 neg_1 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,英語と日本語,,y
+Large Language Models,大規模言語モデル,15,v1 v3_1 v3_2 neg_1 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_3,y,,英語と日本語,,y
+Machine Learning,機械学習,15,v1 v3_1 neg_1 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,,英語と日本語,,y
+ML,Machine Learning,14,v1 v3_1 neg_1 plain_1 plain_2 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_1 B_wording_2 B_wording_3 C_noreason_2 C_noreason_3,y,,略称と正式名,,y
+Agent,エージェント,10,v1 neg_1 neg_2 neg_3 plain_1 A_matome_1 B_wording_2 C_noreason_1 C_noreason_2 C_noreason_3,y,,英語と日本語,,y
+JSON,JSON形式,9,v2_2 neg_1 neg_2 plain_3 A_matome_1 B_wording_3 C_noreason_1 C_noreason_2 C_noreason_3,y,迷い,データ形式としての JSON を指すなら同じ,,y
+RL,強化学習,9,v1 neg_3 plain_1 plain_3 A_matome_1 A_matome_2 A_matome_3 B_wording_3 C_noreason_2,y,,略称と日本語訳,,y
+プロンプト,指示文,8,v1 neg_2 neg_3 plain_1 plain_2 A_matome_1 C_noreason_2 C_noreason_3,n,迷い,講座では指示文=system prompt の意味で使っており、プロンプト全般より狭い,,n
+LLM,言語モデル,7,v1 plain_1 plain_3 B_wording_1 B_wording_3 C_noreason_2 C_noreason_3,n,迷い,言語モデルは LLM より広い,,n
+Large Language Models,言語モデル,7,v1 plain_1 plain_3 B_wording_1 B_wording_3 C_noreason_2 C_noreason_3,n,迷い,同上,,n
+MCP,モデルコンテキストプロトコル,7,neg_2 plain_2 plain_3 A_matome_1 B_wording_2 B_wording_3 C_noreason_2,y,,略称と日本語表記,,y
+API,APIキー,6,v1 neg_2 plain_3 B_wording_3 C_noreason_1 C_noreason_2,n,,,,n
+LLM,LLMモデル,6,plain_1 plain_3 A_matome_1 B_wording_1 B_wording_2 B_wording_3,y,迷い,冗長な言い方だが同じものを指す,,y
+LLMモデル,Large Language Models,6,plain_1 plain_3 A_matome_1 B_wording_1 B_wording_2 B_wording_3,y,迷い,同上,,y
+LLMモデル,大規模言語モデル,6,plain_1 plain_3 A_matome_1 B_wording_1 B_wording_2 B_wording_3,y,迷い,同上,,y
+大規模言語モデル,言語モデル,6,v1 plain_1 plain_3 B_wording_1 B_wording_3 C_noreason_3,n,迷い,同上,,n
+AI エージェント,Agent,5,plain_1 plain_2 B_wording_2 C_noreason_2 C_noreason_3,y,迷い,同上,,y
+AI モデル,モデル,5,neg_2 plain_2 A_matome_1 C_noreason_2 C_noreason_3,n,,,,n
+JSON mode,JSON形式,5,v1 plain_1 plain_2 plain_3 A_matome_2,n,迷い,JSON mode は API の機能名で、形式そのものではない,,n
+AI,生成 AI,4,neg_2 plain_3 C_noreason_2 C_noreason_3,n,,,,n
+AI agents,Agent,4,plain_1 plain_2 A_matome_1 B_wording_2,y,迷い,講座の文脈では Agent は AI エージェントを指す,,y
+AI model,AI モデル,4,plain_2 A_matome_1 B_wording_2 C_noreason_2,y,,英語とカタカナ,,y
+AI エージェント,エージェント,4,plain_1 B_wording_2 C_noreason_2 C_noreason_3,y,迷い,同上,,y
+Claude Code,Claude Code CLI,4,plain_3 B_wording_2 C_noreason_2 C_noreason_3,y,迷い,Claude Code の CLI 版で、講座では同じものを指す,,y
+LLMモデル,言語モデル,4,plain_1 plain_3 B_wording_1 B_wording_3,n,,,,n
+MCP Server,MCP サーバー,4,v1 plain_1 B_wording_2 C_noreason_3,y,,英語と日本語,,y
+AI agents,AI エージェント,3,plain_1 plain_2 B_wording_2,y,,英語と日本語（単複の違いのみ）,,y
+AI agents,エージェント,3,plain_1 A_matome_1 B_wording_2,y,迷い,同上,,y
+AI agents,自律エージェント,3,plain_1 plain_2 A_matome_1,n,,,,n
+AI model,モデル,3,plain_2 A_matome_1 C_noreason_2,n,,,,n
+Agent,自律エージェント,3,plain_1 plain_2 A_matome_1,n,,,,n
+FT,Full Fine-Tuning,3,v1 B_wording_2 C_noreason_1,n,,,,n
+Fine-Tuning,Full Fine-Tuning,3,v1 B_wording_2 C_noreason_1,n,,,,n
+JSON,JSON Schema,3,v1 plain_3 C_noreason_1,n,,,,n
+MCP,MCP サーバー,3,v1 neg_2 B_wording_2,n,迷い,プロトコルとそのサーバーで、全体と部分,,n
+auto mode,auto モード,3,v1 plain_3 C_noreason_2,y,,英語と日本語,,y
+トークン,仮想トークン,3,neg_3 plain_2 C_noreason_2,n,,,,n
+AI Engineering,AIエンジニアリング,2,plain_2 C_noreason_2,y,,英語とカタカナ,,y
+AI エージェント,自律エージェント,2,plain_1 plain_2,n,,,,n
+AI モデル,LLMモデル,2,neg_2 plain_2,n,,,,n
+AI モデル,ML モデル,2,neg_2 plain_2,n,,,,n
+AI モデル,ベースモデル,2,plain_2 C_noreason_3,n,,,,n
+Claude,Claude 3.7 Sonnet,2,v1 C_noreason_3,n,,,,n
+Fine-Tuning,SFT,2,v3_2 neg_1,n,,,,n
+GPT,GPT-4,2,v1 C_noreason_3,n,,,,n
+Human in the loop,human-in / on / out-of-the-loop,2,v1 plain_3,n,迷い,後者は in/on/out の3つを並べた語で、in だけではない,,n
+JSON Schema,JSON形式,2,plain_3 C_noreason_1,n,,,,n
+LLMモデル,ML モデル,2,neg_2 plain_2,n,,,,n
+LLMモデル,モデル,2,neg_2 plain_2,n,,,,n
+MCP,MCP Server,2,v1 B_wording_2,n,迷い,同上,,n
+MCP サーバー,モデルコンテキストプロトコル,2,neg_2 B_wording_2,n,迷い,同上,,n
+ML モデル,モデル,2,neg_2 plain_2,n,,,,n
+Structured output,Structured outputs,2,v1 plain_2,y,,単複の違い,,y
+エージェント,自律エージェント,2,plain_1 A_matome_1,n,,,,n
+サンドボックス,隔離環境,2,v1 C_noreason_2,y,迷い,サンドボックスの日本語説明,,y
+ベースモデル,モデル,2,plain_2 C_noreason_3,n,,,,n
+/goal,goal モード,1,v1,y,迷い,/goal コマンドで入るモードを指す,,y
+4bit,QLoRA,1,v1,n,,,,n
+AGENTS.md,CLAUDE.md,1,v1,n,,,,n
+AGENTS.md,MEMORY.md,1,v1,n,,,,n
+AGENTS.md,README,1,v1,n,,,,n
+AGENTS.md,SKILL.md,1,v1,n,,,,n
+AGENTS.md,program.md,1,v1,n,,,,n
+AGENTS.md,指示ファイル,1,v1,n,,,,n
+AI Engineering,MLエンジニアリング,1,plain_2,n,,,,n
+AI model,LLMモデル,1,plain_2,n,,,,n
+AI model,ML モデル,1,plain_2,n,,,,n
+AI model,ベースモデル,1,plain_2,n,,,,n
+AI アプリケーション,Webアプリケーション,1,C_noreason_3,n,,,新規,n
+AI エンジニア,ソフトウェアエンジニア,1,C_noreason_3,n,,,新規,n
+AI モデル,基盤モデル,1,C_noreason_3,n,,,新規,n
+AIエンジニアリング,MLエンジニアリング,1,plain_2,n,,,,n
+APIキー,認証情報,1,C_noreason_3,n,,,新規,n
+Anthropic,Claude,1,v1,n,,,,n
+Anthropic,Claude 3.7 Sonnet,1,v1,n,,,,n
+Anthropic,Claude Code,1,v1,n,,,,n
+Anthropic,Haiku,1,v1,n,,,,n
+Anthropic,Opus,1,v1,n,,,,n
+Audio-Text-to-Text,マルチモーダル,1,v1,n,,,,n
+Audio-Text-to-Text,画像生成,1,v1,n,,,,n
+Audio-Text-to-Text,画像認識,1,v1,n,,,,n
+Audio-Text-to-Text,音声認識,1,v1,n,,,,n
+Bash,Linux,1,v1,n,,,,n
+Bash,Shell,1,v1,n,,,,n
+Bash,シェル,1,v1,n,,,,n
+CLAUDE.md,MEMORY.md,1,v1,n,,,,n
+CLAUDE.md,README,1,v1,n,,,,n
+CLAUDE.md,SKILL.md,1,v1,n,,,,n
+CLAUDE.md,program.md,1,v1,n,,,,n
+CLAUDE.md,指示ファイル,1,v1,n,,,,n
+ChatGPT,GPT,1,v1,n,,,,n
+ChatGPT,GPT-4,1,v1,n,,,,n
+ChatGPT,GPT-5,1,v1,n,,,,n
+ChatGPT,OpenAI,1,v1,n,,,,n
+ChatGPT,o1,1,v1,n,,,,n
+ChatGPT,o3,1,v1,n,,,,n
+Claude,Claude Code,1,v1,n,,,,n
+Claude,Haiku,1,v1,n,,,,n
+Claude,Opus,1,v1,n,,,,n
+Claude 3.7 Sonnet,Claude Code,1,v1,n,,,,n
+Claude 3.7 Sonnet,Haiku,1,v1,n,,,,n
+Claude 3.7 Sonnet,Opus,1,v1,n,,,,n
+Claude Code,Haiku,1,v1,n,,,,n
+Claude Code,Opus,1,v1,n,,,,n
+Codespaces,Cursor,1,v1,n,,,,n
+Codespaces,VS Code,1,v1,n,,,,n
+Codex,OpenAI Codex,1,B_wording_2,y,迷い,正式名と略称,新規,y
+Codex,OpenAI Codex CLI,1,B_wording_2,y,迷い,Claude Code｜Claude Code CLI と同じ扱い,新規,y
+Cursor,VS Code,1,v1,n,,,,n
+DeepSeek,Gemini,1,v1,n,,,,n
+DeepSeek,Gemma,1,v1,n,,,,n
+DeepSeek,Google,1,v1,n,,,,n
+DeepSeek,Llama,1,v1,n,,,,n
+DeepSeek,Qwen,1,v1,n,,,,n
+Docker,コンテナ,1,v1,n,,,,n
+FT,フルスタック開発,1,C_noreason_2,n,,,新規,n
+Few-shot,ゼロショット,1,v1,n,,,,n
+Fine-Tuning,フルスタック開発,1,C_noreason_2,n,,,新規,n
+Fine-Tuning,事後学習,1,neg_1,n,,,,n
+Fine-Tuning,追加学習,1,neg_1,n,,,,n
+GPT,GPT-3,1,C_noreason_3,n,,,新規,n
+GPT,GPT-5,1,v1,n,,,,n
+GPT,OpenAI,1,v1,n,,,,n
+GPT,o1,1,v1,n,,,,n
+GPT,o3,1,v1,n,,,,n
+GPT-3,GPT-4,1,C_noreason_3,n,,,新規,n
+GPT-4,GPT-5,1,v1,n,,,,n
+GPT-4,OpenAI,1,v1,n,,,,n
+GPT-4,o1,1,v1,n,,,,n
+GPT-4,o3,1,v1,n,,,,n
+GPT-5,OpenAI,1,v1,n,,,,n
+GPT-5,o1,1,v1,n,,,,n
+GPT-5,o3,1,v1,n,,,,n
+GPU,計算基盤,1,v1,n,,,,n
+GPU,計算資源,1,v1,n,,,,n
+Gemini,Gemma,1,v1,n,,,,n
+Gemini,Google,1,v1,n,,,,n
+Gemini,Llama,1,v1,n,,,,n
+Gemini,Qwen,1,v1,n,,,,n
+Gemma,Google,1,v1,n,,,,n
+Gemma,Llama,1,v1,n,,,,n
+Gemma,Qwen,1,v1,n,,,,n
+Git,GitHub,1,v1,n,,,,n
+Git,コミット,1,v1,n,,,,n
+Git,プルリクエスト,1,v1,n,,,,n
+GitHub,コミット,1,v1,n,,,,n
+GitHub,プルリクエスト,1,v1,n,,,,n
+Google,Llama,1,v1,n,,,,n
+Google,Qwen,1,v1,n,,,,n
+Haiku,Opus,1,v1,n,,,,n
+IaC,インフラストラクチャ,1,A_matome_2,n,,,新規,n
+JSON,JSON mode,1,plain_3,n,,,,n
+JSON Schema,JSON mode,1,plain_3,n,,,,n
+JSON mode,Structured output,1,plain_2,n,,,,n
+JSON mode,Structured outputs,1,plain_2,n,,,,n
+JSON形式,Structured output,1,plain_2,n,,,,n
+JSON形式,Structured outputs,1,plain_2,n,,,,n
+LLMモデル,ベースモデル,1,plain_2,n,,,,n
+Linux,Shell,1,v1,n,,,,n
+Linux,シェル,1,v1,n,,,,n
+Llama,Qwen,1,v1,n,,,,n
+LoRA,低ランク,1,v1,n,,,,n
+MCP Server,モデルコンテキストプロトコル,1,B_wording_2,n,,,新規,n
+MEMORY.md,README,1,v1,n,,,,n
+MEMORY.md,SKILL.md,1,v1,n,,,,n
+MEMORY.md,program.md,1,v1,n,,,,n
+MEMORY.md,指示ファイル,1,v1,n,,,,n
+ML モデル,ベースモデル,1,plain_2,n,,,,n
+OpenAI,OpenAI API,1,C_noreason_3,n,,,新規,n
+OpenAI,o1,1,v1,n,,,,n
+OpenAI,o3,1,v1,n,,,,n
+OpenAI Codex,OpenAI Codex CLI,1,B_wording_2,y,迷い,同上,新規,y
+PyTorch,pytest,1,v1,n,,,,n
+README,SKILL.md,1,v1,n,,,,n
+README,program.md,1,v1,n,,,,n
+README,指示ファイル,1,v1,n,,,,n
+RLHF,人手評価,1,v1,n,,,,n
+RLHF,強化学習,1,C_noreason_3,n,,,新規,n
+Retrieval,検索,1,v1,n,,,,n
+SDK,エージェント SDK,1,C_noreason_3,n,,,新規,n
+SFT,事後学習,1,neg_1,n,,,,n
+SFT,追加学習,1,neg_1,n,,,,n
+SKILL.md,program.md,1,v1,n,,,,n
+SKILL.md,指示ファイル,1,v1,n,,,,n
+Shell,シェル,1,v1,y,,英語とカタカナ,,y
+Structured Outputs in the API,Structured output,1,v1,n,迷い,前者は API の機能のページ名,,n
+Structured Outputs in the API,Structured outputs,1,v1,n,迷い,同上,,n
+Structured Outputs in the API,構造化出力,1,v1,n,迷い,同上,,n
+Structured output,構造化出力,1,v1,y,,英語と日本語,,y
+Structured outputs,構造化出力,1,v1,y,,英語と日本語,,y
+Transformer,トランスフォーマー,1,v1,y,,英語とカタカナ,,y
+Web,Web ブラウザ,1,A_matome_1,n,,,新規,n
+Web,ブラウザ,1,A_matome_1,n,,,新規,n
+Web ブラウザ,ブラウザ,1,A_matome_1,y,,書き方の違いで同じもの,新規,y
+o1,o3,1,v1,n,,,,n
+program.md,指示ファイル,1,v1,n,,,,n
+エージェントによる自動化,自動化,1,plain_2,n,,,,n
+コミット,プルリクエスト,1,v1,n,,,,n
+コンテキスト,文脈,1,v1,n,迷い,講座のコンテキストはモデルへの入力全体で、一般語の文脈とは違う,,n
+システムプロンプト,プロンプト,1,A_matome_1,n,,上位と下位,新規,n
+システムプロンプト,指示文,1,A_matome_1,y,迷い,講座では指示文を system prompt の意味で使う（graph.json の別名にもある）,新規,y
+テスト損失,誤差の累積,1,v1,n,,,,n
+データ,データセット,1,v1,n,,,,n
+データ,学習データ,1,v1,n,,,,n
+データセット,学習データ,1,v1,n,,,,n
+トークン,トークン数,1,C_noreason_3,n,,,新規,n
+トークン化,トークン数,1,v1,n,,,,n
+ナレッジカットオフ,古い情報,1,v1,n,,,,n
+ハルシネーション,情報漏えい,1,v1,n,,,,n
+パラメータ,パラメータ数,1,v1,n,,,,n
+パラメータ,重み,1,v1,n,,,,n
+パラメータ数,重み,1,v1,n,,,,n
+プレフィックスチューニング,プロンプトチューニング,1,v1,n,,,,n
+ベクトル,埋め込み,1,v1,n,,,,n
+ベースモデル,基盤モデル,1,C_noreason_3,n,迷い,ベースモデルは事前学習だけのモデル、基盤モデルは汎用の大規模モデル全般で、範囲が違う,新規,n
+マルチモーダル,画像生成,1,v1,n,,,,n
+マルチモーダル,画像認識,1,v1,n,,,,n
+マルチモーダル,音声認識,1,v1,n,,,,n
+モデル,基盤モデル,1,C_noreason_3,n,,,新規,n
+モデルの評価,評価,1,v1,n,,,,n
+モデルの評価,評価指標,1,v1,n,,,,n
+モデルの評価,評価方法,1,v1,n,,,,n
+モデル作成,蒸留,1,v1,n,,,,n
+モデル学習,学習,1,C_noreason_3,n,,,新規,n
+レイテンシ,応答速度,1,v1,n,迷い,レイテンシは遅延時間で、速度とは向きが逆,,n
+レイテンシ,推論,1,v1,n,,,,n
+予測,推論,1,C_noreason_3,n,,,新規,n
+事後学習,追加学習,1,neg_1,n,,,,n
+応答速度,推論,1,v1,n,,,,n
+汎用チャットAI,過剰適合,1,v1,n,,,,n
+画像生成,画像認識,1,v1,n,,,,n
+画像生成,音声認識,1,v1,n,,,,n
+画像認識,音声認識,1,v1,n,,,,n
+計算基盤,計算資源,1,v1,n,,,,n
+評価,評価指標,1,v1,n,,,,n
+評価,評価方法,1,v1,n,,,,n
+評価指標,評価方法,1,v1,n,,,,n
