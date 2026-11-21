@@ -1,0 +1,2012 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "pages": {
+  "lec01-main-p001": [
+   "AIエンジニアリング",
+   "AIコーディング",
+   "技術経営戦略学専攻",
+   "工学系研究科"
+  ],
+  "lec01-main-p002": [
+   "機械学習",
+   "深層学習",
+   "転移学習",
+   "Large Language Models",
+   "基盤モデル",
+   "大規模言語モデル",
+   "DL",
+   "Deep Learning",
+   "E資格"
+  ],
+  "lec01-main-p003": [
+   "AIエンジニアリング",
+   "基盤モデル",
+   "エコシステム"
+  ],
+  "lec01-main-p004": [
+   "AIエンジニアリング",
+   "基盤モデル",
+   "アプリケーション",
+   "プロンプト",
+   "指示文",
+   "追加学習"
+  ],
+  "lec01-main-p005": [
+   "AIエンジニアリング",
+   "基盤モデル",
+   "エコシステム",
+   "ライブラリ",
+   "Gemini",
+   "PyTorch"
+  ],
+  "lec01-main-p006": [
+   "AIエンジニアリング",
+   "基盤モデル"
+  ],
+  "lec01-main-p007": [
+   "基盤モデル",
+   "事前学習",
+   "GPT",
+   "Claude",
+   "Gemini",
+   "プロンプト",
+   "指示文",
+   "追加学習",
+   "セグメンテーション"
+  ],
+  "lec01-main-p008": [
+   "基盤モデル",
+   "質問応答",
+   "要約",
+   "翻訳",
+   "コード生成",
+   "画像認識",
+   "セグメンテーション",
+   "領域分割",
+   "画像生成",
+   "音声認識",
+   "ロボット制御"
+  ],
+  "lec01-main-p009": [
+   "METR",
+   "GPT-4",
+   "Claude 3.7 Sonnet",
+   "o3",
+   "GPT-5",
+   "Claude Opus",
+   "タイムホライズン"
+  ],
+  "lec01-main-p010": [
+   "RSI",
+   "Recursive Self-Improvement",
+   "再帰的自己改善",
+   "基盤モデル",
+   "コーディングエージェント",
+   "自律エージェント"
+  ],
+  "lec01-main-p011": [
+   "基盤モデル",
+   "Anthropic",
+   "DeepMind",
+   "Google DeepMind",
+   "Gemini 4 Argon",
+   "本番コード",
+   "ML 研究",
+   "コード量"
+  ],
+  "lec01-main-p012": [
+   "AI エンジニアリング",
+   "エコシステム",
+   "基盤モデル",
+   "公開モデル",
+   "ライブラリ",
+   "標準規格",
+   "AI システム"
+  ],
+  "lec01-main-p013": [
+   "事前学習済みモデル",
+   "Hugging Face",
+   "Linux Foundation",
+   "sentiment.py",
+   "transformers",
+   "pipeline",
+   "sentiment-analysis",
+   "MCP",
+   "AGENTS.md",
+   "マルチモーダル",
+   "データセット"
+  ],
+  "lec01-main-p014": [
+   "Hugging Face",
+   "マルチモーダル",
+   "タスク名",
+   "DeepCoder-14B-Preview",
+   "HiDream-I1-Full",
+   "Kimi-VL-A3B-Thinking",
+   "Llama-4-Scout-17B-16E-Instruct",
+   "Llama-3_1-Nemotron-Ultra-253B-v1",
+   "Audio-Text-to-Text",
+   "Visual Question Answering",
+   "Image Classification",
+   "Object Detection",
+   "Image Segmentation"
+  ],
+  "lec01-main-p015": [
+   "セグメンテーション",
+   "Hugging Face",
+   "Transformers",
+   "semantic segmentation",
+   "image-segmentation",
+   "segformer-b1-finetuned-cityscapes-1024-1024"
+  ],
+  "lec01-main-p016": [
+   "Stack Overflow Developer Survey",
+   "AI コーディング",
+   "エージェントによる自動化",
+   "汎用チャットAI",
+   "コーディング支援",
+   "AI エージェント",
+   "Web 検索"
+  ],
+  "lec01-main-p017": [
+   "サービスロボット",
+   "画像認識"
+  ],
+  "lec01-main-p018": [
+   "LLM",
+   "大規模言語モデル",
+   "RoboCup Japan Open",
+   "行動の列",
+   "get_command",
+   "find_object",
+   "grab",
+   "find_person",
+   "hand_over"
+  ],
+  "lec01-main-p019": [
+   "チャットボット",
+   "RAG",
+   "Retrieval-Augmented Generation",
+   "講義資料",
+   "Omnicampus",
+   "LLM",
+   "GPT4o",
+   "プロンプト",
+   "言語モデル",
+   "外部知識",
+   "データベース"
+  ],
+  "lec01-main-p020": [
+   "ロボカップ",
+   "チャットボット開発"
+  ],
+  "lec01-main-p021": [
+   "AI",
+   "AI エンジニアリング",
+   "基盤モデル",
+   "AI の進化",
+   "エコシステム",
+   "チャンス"
+  ],
+  "lec01-main-p022": [
+   "生成 AI",
+   "生成 AI 市場",
+   "市場規模",
+   "予測"
+  ],
+  "lec01-main-p023": [
+   "AI",
+   "AI エンジニアリング",
+   "設計",
+   "成果"
+  ],
+  "lec01-main-p024": [
+   "AI",
+   "AI model",
+   "Millennium Prize Problems",
+   "エージェント",
+   "ナビエ–ストークス方程式",
+   "Gemini",
+   "Deep Think",
+   "FrontierMath",
+   "オイラー方程式"
+  ],
+  "lec01-main-p025": [
+   "Claude Mythos Preview",
+   "OS",
+   "ブラウザ",
+   "脆弱性",
+   "Project Glasswing",
+   "OpenBSD",
+   "バグ",
+   "サンドボックス",
+   "AWS",
+   "Apple",
+   "Google",
+   "Microsoft",
+   "Linux Foundation",
+   "コーディング",
+   "推論",
+   "自律性"
+  ],
+  "lec01-main-p026": [
+   "AI",
+   "AI エンジニアリング",
+   "Speed",
+   "Altitude",
+   "Depth",
+   "Range",
+   "データ",
+   "ツール"
+  ],
+  "lec01-main-p027": [
+   "AI ツール",
+   "ランダム化比較実験",
+   "METR",
+   "Uplift Update",
+   "追試",
+   "作業時間"
+  ],
+  "lec01-main-p028": [
+   "AI",
+   "AI エンジニアリング",
+   "基盤モデル",
+   "タスク",
+   "エコシステム",
+   "公開モデル",
+   "ライブラリ",
+   "標準化"
+  ],
+  "lec01-main-p029": [
+   "AI エンジニアリング",
+   "モデル",
+   "評価",
+   "改善",
+   "質問対応"
+  ],
+  "lec01-main-p030": [
+   "AI",
+   "AI エンジニアリング",
+   "モデル",
+   "問題設定",
+   "データ",
+   "システム",
+   "運用",
+   "評価",
+   "改善"
+  ],
+  "lec01-main-p031": [
+   "AI",
+   "学習データ",
+   "テストデータ",
+   "ベースライン",
+   "評価指標",
+   "モデル",
+   "AI エンジニアリング"
+  ],
+  "lec01-main-p032": [
+   "AI エンジニアリング",
+   "AI",
+   "モデル学習",
+   "問題設定",
+   "データ収集",
+   "デプロイ",
+   "改善"
+  ],
+  "lec01-main-p033": [
+   "機械学習",
+   "ML",
+   "Hidden Technical Debt in Machine Learning Systems",
+   "NeurIPS 2015",
+   "データ検証",
+   "計算資源",
+   "特徴抽出",
+   "分析ツール",
+   "プロセス管理",
+   "サービング基盤",
+   "監視",
+   "基盤モデル"
+  ],
+  "lec01-main-p034": [
+   "AI エンジニアリング",
+   "問題設定",
+   "データ収集",
+   "モデル学習",
+   "デプロイ",
+   "改善",
+   "MLOps",
+   "自動テスト",
+   "改善サイクル"
+  ],
+  "lec01-main-p035": [
+   "AI エンジニアリング",
+   "AI Engineering",
+   "AI Engineering Skills Map",
+   "METR",
+   "AI ツール"
+  ],
+  "lec01-main-p036": [
+   "AI"
+  ],
+  "lec01-main-p037": [
+   "問題設定",
+   "データ収集",
+   "モデル学習",
+   "デプロイ",
+   "改善",
+   "MLOps",
+   "AI モデル",
+   "モデルの評価"
+  ],
+  "lec01-main-p038": [
+   "AI"
+  ],
+  "lec01-main-p039": [
+   "質問応答",
+   "サジェスト"
+  ],
+  "lec01-main-p040": [
+   "チャットボット",
+   "質問応答",
+   "人手評価",
+   "Human Preference Score",
+   "アノテーション",
+   "Label Studio",
+   "LLM",
+   "LLM-as-a-Judge"
+  ],
+  "lec01-main-p041": [
+   "Machine Learning",
+   "ML Engineering",
+   "正答率",
+   "ユーザー",
+   "モデル",
+   "非機能要件",
+   "応答速度",
+   "処理"
+  ],
+  "lec01-main-p042": [
+   "Engineering Metrics",
+   "Business Metrics",
+   "技術の指標",
+   "価値の指標",
+   "正答率",
+   "講師の負担軽減",
+   "指標"
+  ],
+  "lec01-main-p043": [
+   "Human Level Performance",
+   "History of Project",
+   "人間の性能",
+   "プロジェクトの履歴",
+   "ベースライン",
+   "k近傍法",
+   "手法",
+   "精度"
+  ],
+  "lec01-main-p044": [
+   "MLOps",
+   "モデル学習",
+   "デプロイ",
+   "データ収集",
+   "アノテーション",
+   "クローリング",
+   "データパイプライン",
+   "基盤モデル",
+   "評価方法"
+  ],
+  "lec01-main-p045": [
+   "アンチパターン",
+   "データ収集",
+   "モデル作成",
+   "評価",
+   "改善",
+   "データセット"
+  ],
+  "lec01-main-p046": [
+   "ベンチマーク",
+   "ラベル",
+   "テストセット",
+   "Machine Learning Benchmarks",
+   "MNIST",
+   "ImageNet",
+   "CIFAR-10",
+   "CIFAR-100",
+   "Caltech-256",
+   "QuickDraw"
+  ],
+  "lec01-main-p047": [
+   "モデル学習",
+   "MLOps",
+   "モデル選択",
+   "デバッギング",
+   "基盤モデル",
+   "エージェント",
+   "外部接続",
+   "問題設定",
+   "データ収集"
+  ],
+  "lec01-main-p048": [
+   "事前学習済みモデル",
+   "Fine-Tuning",
+   "追加学習",
+   "スクラッチ",
+   "ハイパーパラメータ",
+   "画像認識",
+   "言語モデル",
+   "VLM",
+   "アンサンブル",
+   "RAG"
+  ],
+  "lec01-main-p049": [
+   "RAG",
+   "検索拡張生成",
+   "LLM",
+   "フィルタリング",
+   "チャンク分割",
+   "インデックス化",
+   "インデックス",
+   "Retriever",
+   "検索器"
+  ],
+  "lec01-main-p050": [
+   "ベースライン",
+   "AIエンジニアリング",
+   "Hugging Face Papers",
+   "arXiv",
+   "GitHub",
+   "Papers with Code",
+   "コーディングエージェント",
+   "実装",
+   "モデル"
+  ],
+  "lec01-main-p051": [
+   "デプロイ",
+   "入力",
+   "出力",
+   "評価方法",
+   "データ収集",
+   "学習・評価データ",
+   "モデル学習",
+   "システム構成",
+   "負荷対策",
+   "自動テスト",
+   "MLOps",
+   "クラウド",
+   "スケーリング"
+  ],
+  "lec01-main-p052": [
+   "AI エンジニアリング",
+   "改善サイクル",
+   "問題設定",
+   "データ収集",
+   "モデル学習",
+   "デプロイ",
+   "改善",
+   "評価",
+   "システム構成"
+  ],
+  "lec01-main-p053": [
+   "問題設定",
+   "データ収集",
+   "モデル学習",
+   "デプロイ",
+   "改善",
+   "性能",
+   "システム構成"
+  ],
+  "lec01-main-p054": [
+   "AI エンジニアリング",
+   "問題設定",
+   "評価方法",
+   "データ収集",
+   "学習・評価データ",
+   "モデル学習",
+   "デプロイ",
+   "システム構成",
+   "自動テスト",
+   "MLOps"
+  ],
+  "lec01-main-p055": [
+   "AI Engineering Skills Map",
+   "AI アプリケーション",
+   "デプロイ",
+   "LLM",
+   "グラウンディング",
+   "エージェント",
+   "本番運用",
+   "機械学習",
+   "ソフトウェアエンジニアリング",
+   "フルスタック開発",
+   "システムアーキテクチャ",
+   "スケーリング",
+   "MVP"
+  ],
+  "lec01-main-p056": [
+   "ML モデル",
+   "基盤モデル",
+   "評価セット",
+   "指標",
+   "レイテンシ",
+   "プロンプト",
+   "コーディングエージェント"
+  ],
+  "lec01-main-p057": [
+   "カリキュラム",
+   "最終課題"
+  ],
+  "lec01-main-p058": [
+   "AI コーディング",
+   "Skills Map",
+   "コーディングエージェント",
+   "AGENTS.md",
+   "Git",
+   "事前学習",
+   "ポストトレーニング",
+   "推論時計算",
+   "QLoRA",
+   "AI エージェント",
+   "構造化出力",
+   "評価メトリクス",
+   "ベンチマーク",
+   "RAG",
+   "MCP",
+   "MCP Server",
+   "サーバーレス",
+   "コンテナ",
+   "IaC",
+   "MLOps",
+   "LLM 監視",
+   "評価 CI",
+   "Few-shot",
+   "DSPy",
+   "合成データ",
+   "ストリーミング",
+   "OWASP Top 10",
+   "プロンプトインジェクション"
+  ],
+  "lec01-main-p059": [
+   "AI エンジニアリング",
+   "コーディングエージェント",
+   "AGENTS.md",
+   "CLAUDE.md",
+   "Git",
+   "GitHub",
+   "Codespaces"
+  ],
+  "lec01-main-p060": [
+   "座学",
+   "演習",
+   "最終課題",
+   "実装"
+  ],
+  "lec01-main-p061": [
+   "アプリケーション開発",
+   "プロジェクト候補",
+   "説明資料",
+   "PPT",
+   "修了基準",
+   "最終課題",
+   "開発レベル"
+  ],
+  "lec01-main-p062": [
+   "質問応答",
+   "AI補助機能",
+   "PoC",
+   "実現性",
+   "Webアプリケーション",
+   "開発体制",
+   "システム構成",
+   "評価方法"
+  ],
+  "lec01-main-p063": [
+   "AIエンジニアリング",
+   "問題設定",
+   "データ収集",
+   "モデル学習",
+   "デプロイ",
+   "基盤モデル",
+   "エージェント",
+   "クラウド",
+   "MLOps",
+   "AIコーディング",
+   "セキュリティ",
+   "プライバシー"
+  ],
+  "lec01-main-p064": [
+   "相互学習",
+   "コミュニティ",
+   "勉強会",
+   "Git",
+   "GitHub",
+   "Docker",
+   "FastAPI",
+   "Codespaces",
+   "MCP",
+   "A2A",
+   "AGENTS.md"
+  ],
+  "lec01-main-p065": [
+   "Shell",
+   "Git",
+   "GitHub",
+   "Docker",
+   "コンテナ",
+   "エンジニアリング基礎",
+   "参考リンク集",
+   "AIエンジニアリング実践講座"
+  ],
+  "lec01-main-p066": [
+   "Designing Machine Learning Systems",
+   "機械学習システムデザイン",
+   "Rules of Machine Learning",
+   "機械学習デザインパターン",
+   "MLOps",
+   "AI Engineering",
+   "AIエンジニアリング",
+   "基盤モデル",
+   "DeepLearning.AI",
+   "AI Engineering Skills Map"
+  ],
+  "lec01-main-p067": [
+   "AIエンジニアリング",
+   "MLエンジニアリング",
+   "API",
+   "DX"
+  ],
+  "lec01-main-p068": [
+   "MLエンジニアリング",
+   "基盤モデル",
+   "プロンプト",
+   "コンテキスト",
+   "RAG",
+   "Fine-Tuning",
+   "推論最適化",
+   "GPU",
+   "フィードバックループ"
+  ],
+  "lec01-main-p069": [
+   "AIエンジニアリング",
+   "ML",
+   "アプリケーション開発",
+   "プロンプト",
+   "コンテキスト設計",
+   "AIインターフェース",
+   "モデル開発",
+   "Fine-Tuning",
+   "データセット",
+   "推論最適化",
+   "インフラストラクチャ",
+   "サービング",
+   "GPU",
+   "監視"
+  ],
+  "lec01-main-p070": [
+   "MLエンジニアリング",
+   "AIエンジニアリング",
+   "基盤モデル",
+   "分類",
+   "回帰",
+   "API",
+   "レイテンシ",
+   "プロダクト",
+   "コーディングエージェント"
+  ],
+  "lec01-main-p071": [
+   "AI エンジニアリング",
+   "基盤モデル",
+   "CMU SEI",
+   "Gartner",
+   "セキュア",
+   "スケーラブル",
+   "ガバナンス",
+   "ライフサイクル管理",
+   "ソフトウェア工学",
+   "API",
+   "チップヒュエン",
+   "Andrew Ng"
+  ],
+  "lec01-main-p072": [
+   "AI エンジニア",
+   "API",
+   "ML 研究者",
+   "ML エンジニア",
+   "事前学習",
+   "ベンチマーク",
+   "プロンプト",
+   "RAG",
+   "エージェント",
+   "LLM 研究者",
+   "ソフトウェアエンジニア",
+   "Fine-Tuning"
+  ],
+  "lec01-main-p073": [
+   "DX",
+   "GDP",
+   "総務省",
+   "情報通信白書",
+   "IMF",
+   "IDC"
+  ],
+  "lec02-main-p001": [
+   "基盤モデル",
+   "AI エンジニアリング",
+   "技術経営戦略学専攻"
+  ],
+  "lec02-main-p002": [
+   "モデル学習",
+   "基盤モデル",
+   "AI エンジニアリング",
+   "データ収集",
+   "デプロイ",
+   "MLOps",
+   "チャットボット"
+  ],
+  "lec02-main-p003": [
+   "チャットボット",
+   "RAG",
+   "基盤モデル"
+  ],
+  "lec02-main-p004": [
+   "LLM",
+   "Fine-Tuning"
+  ],
+  "lec02-main-p005": [
+   "ChatGPT",
+   "Claude",
+   "LLM",
+   "エージェント",
+   "RAG"
+  ],
+  "lec02-main-p006": [
+   "トークン",
+   "パラメータ",
+   "重み",
+   "事前学習",
+   "事後学習",
+   "推論時計算",
+   "Fine-Tuning",
+   "FT",
+   "RAG"
+  ],
+  "lec02-main-p007": [
+   "LLM",
+   "チャットボット"
+  ],
+  "lec02-main-p008": [
+   "LLM",
+   "トークン",
+   "事前学習",
+   "事後学習",
+   "サンプリング"
+  ],
+  "lec02-main-p009": [
+   "トークン化",
+   "RAG",
+   "ID",
+   "コンテキスト長",
+   "API"
+  ],
+  "lec02-main-p010": [
+   "Transformer",
+   "トークン",
+   "確率分布",
+   "RAG"
+  ],
+  "lec02-main-p011": [
+   "パラメータ",
+   "重回帰",
+   "ニューラルネット",
+   "Fine-Tuning",
+   "事前学習",
+   "事後学習"
+  ],
+  "lec02-main-p012": [
+   "サンプリング",
+   "温度",
+   "temperature",
+   "チャットボット"
+  ],
+  "lec02-main-p013": [
+   "RAG",
+   "Retrieval"
+  ],
+  "lec02-main-p014": [
+   "ハルシネーション",
+   "チャットボット",
+   "RAG"
+  ],
+  "lec02-main-p015": [
+   "RAG",
+   "チャットボット",
+   "GPT-3.5-Turbo"
+  ],
+  "lec02-main-p016": [
+   "チャットボット"
+  ],
+  "lec02-main-p017": [
+   "チャットボット"
+  ],
+  "lec02-main-p018": [
+   "LLM",
+   "確率",
+   "温度",
+   "RAG",
+   "API",
+   "logprobs",
+   "チャットボット"
+  ],
+  "lec02-main-p019": [
+   "チャットボット",
+   "モデル"
+  ],
+  "lec02-main-p020": [
+   "RAG",
+   "事後学習",
+   "Fine-Tuning",
+   "FT",
+   "推論時計算",
+   "ポストトレーニング",
+   "推論モデル",
+   "inference",
+   "reasoning"
+  ],
+  "lec02-main-p021": [
+   "スケール則",
+   "テスト損失",
+   "トークン",
+   "パラメータ数",
+   "GPT-3",
+   "Kimi K2",
+   "DeepSeek-V4-Pro"
+  ],
+  "lec02-main-p022": [
+   "事前学習",
+   "ナレッジカットオフ",
+   "RAG",
+   "ChatGPT",
+   "シラバス"
+  ],
+  "lec02-main-p023": [
+   "事前学習済みモデル",
+   "Fine-Tuning",
+   "SFT",
+   "RLHF",
+   "RLVR",
+   "チャットボット"
+  ],
+  "lec02-main-p024": [
+   "事前学習",
+   "事後学習",
+   "InstructGPT",
+   "GPT-3",
+   "RAG",
+   "LLM",
+   "強化学習"
+  ],
+  "lec02-main-p025": [
+   "推論時計算",
+   "CoT",
+   "Chain of Thought",
+   "o1",
+   "API",
+   "budget_tokens",
+   "出力トークン"
+  ],
+  "lec02-main-p026": [
+   "チャットボット",
+   "推論時計算",
+   "RAG",
+   "Fine-Tuning"
+  ],
+  "lec02-main-p027": [
+   "チャットボット",
+   "推論時計算",
+   "RAG",
+   "Fine-Tuning"
+  ],
+  "lec02-main-p028": [
+   "RAG",
+   "事前学習",
+   "専門向けのモデル",
+   "プロンプト",
+   "FT",
+   "事後学習",
+   "推論モデル",
+   "推論時計算",
+   "Fine-Tuning",
+   "評価セット"
+  ],
+  "lec02-main-p029": [
+   "基盤モデル",
+   "評価セット",
+   "RAG",
+   "エージェント",
+   "プロンプト",
+   "推論時計算",
+   "FT"
+  ],
+  "lec02-main-p030": [
+   "基盤モデル",
+   "LLM"
+  ],
+  "lec02-main-p031": [
+   "基盤モデル",
+   "評価セット",
+   "公開モデル",
+   "Hugging Face"
+  ],
+  "lec02-main-p032": [
+   "表現",
+   "ベクトル",
+   "LLM",
+   "GPT",
+   "Claude",
+   "Gemini",
+   "Qwen",
+   "Llama",
+   "CLIP",
+   "SigLIP",
+   "DINOv3",
+   "SAM",
+   "VLM",
+   "Stable Diffusion",
+   "FLUX",
+   "Whisper",
+   "BGE-M3",
+   "E5",
+   "RAG",
+   "Chronos",
+   "TimesFM",
+   "VLA"
+  ],
+  "lec02-main-p033": [
+   "LLM",
+   "オープンウェイト",
+   "ライセンス",
+   "Hugging Face",
+   "Qwen",
+   "Llama",
+   "Gemma",
+   "gpt-oss",
+   "DeepSeek",
+   "MoE",
+   "R1",
+   "Kimi",
+   "GLM",
+   "Japanese LLM-jp",
+   "Swallow"
+  ],
+  "lec02-main-p034": [
+   "CLIP",
+   "SigLIP",
+   "ゼロショット",
+   "VLM",
+   "DINO",
+   "DINOv3",
+   "バックボーン",
+   "SAM",
+   "Segment Anything",
+   "SAM 2",
+   "SAM 3"
+  ],
+  "lec02-main-p035": [
+   "VLM",
+   "LLM",
+   "画像エンコーダ",
+   "CLIP",
+   "トークン",
+   "LLaVA",
+   "Qwen-VL",
+   "Gemma",
+   "InternVL",
+   "Molmo"
+  ],
+  "lec02-main-p036": [
+   "Whisper",
+   "RAG",
+   "拡散モデル",
+   "Stable Diffusion",
+   "FLUX"
+  ],
+  "lec02-main-p037": [
+   "時系列の基盤モデル",
+   "事前学習",
+   "ゼロショット",
+   "Chronos",
+   "LLM",
+   "TimesFM",
+   "Moirai",
+   "TimeGPT",
+   "Nixtla"
+  ],
+  "lec02-main-p038": [
+   "基盤モデル",
+   "API",
+   "オープンウェイト",
+   "OpenAI",
+   "Anthropic",
+   "Google",
+   "Hugging Face",
+   "Llama",
+   "Qwen",
+   "Gemma",
+   "FT",
+   "GPU",
+   "SLM",
+   "Colab"
+  ],
+  "lec02-main-p039": [
+   "ベンチマーク",
+   "評価セット",
+   "ツール",
+   "計算量"
+  ],
+  "lec02-main-p040": [
+   "MMLU",
+   "ジェボンズのパラドックス",
+   "LLM",
+   "GPT-3.5",
+   "トークン",
+   "推論モデル",
+   "FT"
+  ],
+  "lec02-main-p041": [
+   "分類モデル",
+   "プログラム",
+   "埋め込み",
+   "分類器",
+   "FT",
+   "TypeSafe AI",
+   "Jev",
+   "RAG",
+   "LLM",
+   "エージェント"
+  ],
+  "lec02-main-p042": [
+   "ベンチマーク",
+   "特化モデル",
+   "FT",
+   "評価セット",
+   "画像生成モデル"
+  ],
+  "lec02-main-p043": [
+   "特化モデル",
+   "FT",
+   "評価セット",
+   "ベンチマーク"
+  ],
+  "lec02-main-p044": [
+   "特化モデル",
+   "API",
+   "評価セット",
+   "ベンチマーク"
+  ],
+  "lec02-main-p045": [
+   "Fine-Tuning"
+  ],
+  "lec02-main-p046": [
+   "Fine-Tuning",
+   "RAG",
+   "プロンプト"
+  ],
+  "lec02-main-p047": [
+   "RAG",
+   "FT",
+   "ハルシネーション",
+   "LoRA",
+   "継続事前学習",
+   "CPT",
+   "Swallow",
+   "LIMA",
+   "蒸留"
+  ],
+  "lec02-main-p048": [
+   "継続事前学習",
+   "CPT",
+   "事前学習済みモデル",
+   "SFT",
+   "RL",
+   "トークン",
+   "GPU",
+   "Swallow",
+   "AIRoA",
+   "ドメイン適応"
+  ],
+  "lec02-main-p049": [
+   "FT",
+   "プロンプト",
+   "トークン",
+   "API",
+   "プロンプトキャッシュ"
+  ],
+  "lec02-main-p050": [
+   "Fine-Tuning",
+   "評価セット",
+   "RAG",
+   "プロンプト",
+   "検索"
+  ],
+  "lec02-main-p051": [
+   "PEFT",
+   "Full Fine-Tuning",
+   "LoRA",
+   "QLoRA",
+   "アダプタ",
+   "プレフィックスチューニング",
+   "プロンプトチューニング",
+   "仮想トークン",
+   "トランスフォーマー"
+  ],
+  "lec02-main-p052": [
+   "LoRA",
+   "QLoRA",
+   "重み",
+   "4bit",
+   "GPU",
+   "transformers",
+   "peft",
+   "bitsandbytes",
+   "TRL",
+   "低ランク"
+  ],
+  "lec02-main-p053": [
+   "FT",
+   "チャットボット",
+   "プロンプト",
+   "API",
+   "JSON",
+   "RAG",
+   "構造化出力"
+  ],
+  "lec02-main-p054": [
+   "LIMA",
+   "train.jsonl",
+   "システムプロンプト",
+   "アシスタント",
+   "手本データ",
+   "学習用",
+   "評価用"
+  ],
+  "lec02-main-p055": [
+   "FT",
+   "JSON",
+   "ベースモデル",
+   "指標",
+   "形式遵守率"
+  ],
+  "lec02-main-p056": [
+   "Fine-Tuning",
+   "チャットボット",
+   "JSON形式"
+  ],
+  "lec02-main-p057": [
+   "Fine-Tuning",
+   "JSON",
+   "プロンプト",
+   "構造化出力",
+   "RAG",
+   "推論時計算",
+   "振る舞い",
+   "知識"
+  ],
+  "lec02-main-p058": [
+   "Fine-Tuning",
+   "評価セット",
+   "プロンプト",
+   "RAG",
+   "LoRA",
+   "QLoRA",
+   "過剰適合"
+  ],
+  "lec02-main-p059": [
+   "LLM",
+   "プロンプト",
+   "FT",
+   "LoRA",
+   "QLoRA",
+   "JSON",
+   "API",
+   "Gekhman et al. 2024",
+   "Biderman et al. 2024"
+  ],
+  "lec02-main-p060": [
+   "QLoRA",
+   "Colab",
+   "FastAPI",
+   "ngrok",
+   "API",
+   "形式遵守率",
+   "JSON"
+  ],
+  "lec02-main-p061": [
+   "API",
+   "形式遵守率",
+   "QLoRA",
+   "GPU",
+   "学習用"
+  ],
+  "lec02-main-p062": [
+   "AI エージェント",
+   "モデル",
+   "文脈",
+   "JSON",
+   "トークン",
+   "ChatGPT"
+  ],
+  "lec02-main-p063": [
+   "Mythos 5.1",
+   "GPT-6 Astra",
+   "深層学習",
+   "自己注意",
+   "MoE",
+   "API"
+  ],
+  "lec02-main-p064": [
+   "Mythos 5.1",
+   "Fable 5.1",
+   "METR",
+   "T. Kwa et al.",
+   "基盤モデル",
+   "LLM"
+  ],
+  "lec02-main-p065": [
+   "GPT-6 Astra",
+   "OpenAI",
+   "Web",
+   "推論能力",
+   "AI エージェント"
+  ],
+  "lec02-main-p066": [
+   "深層学習",
+   "重回帰",
+   "パラメータ",
+   "ニューラルネット",
+   "Goodfellow et al.",
+   "誤差逆伝播",
+   "ニューラルネットワーク"
+  ],
+  "lec02-main-p067": [
+   "自己注意",
+   "Transformer",
+   "Google Research Blog",
+   "Vaswani et al.",
+   "NeurIPS 2017",
+   "トークン"
+  ],
+  "lec02-main-p068": [
+   "MoE",
+   "専門家",
+   "入力",
+   "選択する仕組み",
+   "パラメータ",
+   "計算量",
+   "DeepSeek-V4-Pro"
+  ],
+  "lec02-main-p069": [
+   "API",
+   "トークン数",
+   "推論時計算",
+   "chatbot_api.py",
+   "anthropic",
+   "APIキー",
+   "モデル",
+   "リクエスト",
+   "レスポンス",
+   "レート制限"
+  ],
+  "lec02-main-p070": [
+   "トークン",
+   "推論時計算",
+   "入力",
+   "出力",
+   "モデル"
+  ],
+  "lec03-main-p001": [
+   "AIエージェント",
+   "AIエンジニアリング実践講座",
+   "松尾・岩澤研究室"
+  ],
+  "lec03-main-p002": [
+   "AX推進",
+   "計算基盤",
+   "インフラ",
+   "エージェント",
+   "Dots",
+   "Openclaw",
+   "自作エージェント"
+  ],
+  "lec03-main-p003": [
+   "エージェント",
+   "モデル",
+   "ツール",
+   "ループ",
+   "メモリ",
+   "基盤モデル",
+   "信頼境界",
+   "構造化出力"
+  ],
+  "lec03-main-p004": [
+   "エージェント",
+   "MCP",
+   "並列化",
+   "構造化出力",
+   "ツール呼び出し",
+   "Jev",
+   "Skill",
+   "サンドボックス",
+   "RSI",
+   "オートリサーチ",
+   "LLM",
+   "システムプロンプト",
+   "キャッシュ",
+   "ハーネス"
+  ],
+  "lec03-main-p005": [
+   "エージェント",
+   "AIエージェント"
+  ],
+  "lec03-main-p006": [
+   "LLM",
+   "大規模言語モデル",
+   "ステートレス",
+   "テスト",
+   "ツールコール"
+  ],
+  "lec03-main-p007": [
+   "LLM",
+   "ステートレス",
+   "user_message",
+   "assistant_message"
+  ],
+  "lec03-main-p008": [
+   "LLM",
+   "コンテキスト",
+   "メッセージ",
+   "返答",
+   "チャット",
+   "全文"
+  ],
+  "lec03-main-p009": [
+   "システムプロンプト",
+   "コンテキスト",
+   "ツール",
+   "スキル",
+   "メッセージ",
+   "返答",
+   "LLM",
+   "リリースノート",
+   "ドキュメント"
+  ],
+  "lec03-main-p010": [
+   "ツール",
+   "コンテキスト",
+   "引数",
+   "run_tests",
+   "read_file",
+   "edit_file",
+   "LLM",
+   "ハーネス",
+   "プログラム"
+  ],
+  "lec03-main-p011": [
+   "シェル",
+   "Bash",
+   "Claude Code",
+   "Codex",
+   "Read",
+   "Write",
+   "Edit",
+   "Glob",
+   "Grep",
+   "WebSearch",
+   "WebFetch",
+   "Agent",
+   "TaskCreate"
+  ],
+  "lec03-main-p012": [
+   "ループ",
+   "ReAct",
+   "ハーネス",
+   "モデル",
+   "ツール",
+   "テスト",
+   "ファイル",
+   "検索",
+   "コンテキスト"
+  ],
+  "lec03-main-p013": [
+   "メモリ",
+   "コンテキスト",
+   "チャット",
+   "pytest",
+   "range",
+   "データベース",
+   "実装",
+   "学習"
+  ],
+  "lec03-main-p014": [
+   "エージェント",
+   "モデル",
+   "ハーネス",
+   "LLMモデル",
+   "コンテキスト",
+   "履歴",
+   "メモリ",
+   "ツール一覧",
+   "プログラム",
+   "権限"
+  ],
+  "lec03-main-p015": [
+   "エージェントハーネス",
+   "常駐型",
+   "claw型",
+   "実行環境",
+   "タスク型",
+   "ChatGPT Work",
+   "Claude Cowork",
+   "OpenClaw",
+   "Hermes Agent",
+   "Claude Code",
+   "Codex",
+   "Cursor",
+   "Copilot coding agent"
+  ],
+  "lec03-main-p016": [
+   "キャッシュ",
+   "プロンプトキャッシュ",
+   "トークン",
+   "GPT-6.1 Sol",
+   "Claude Opus 5.5",
+   "Gemini 4 Argon",
+   "DeepSeek V4-Pro",
+   "モデル",
+   "料金"
+  ],
+  "lec03-main-p017": [
+   "ハーネス",
+   "DeepSeek Harness",
+   "Pi Agent",
+   "DeepSeek V4 Flash",
+   "Terminal-Bench 4.0",
+   "タスク",
+   "トークン",
+   "モデル",
+   "キャッシュ",
+   "Claude Code"
+  ],
+  "lec03-main-p018": [
+   "ループ",
+   "誤差の累積"
+  ],
+  "lec03-main-p019": [
+   "誤差の累積",
+   "エージェント",
+   "METR",
+   "GPT-4",
+   "GPT-5",
+   "Claude Opus 4.6"
+  ],
+  "lec03-main-p020": [
+   "OpenAI Codex CLI",
+   "Claude Code",
+   "true/false",
+   "lint",
+   "ベンチマーク",
+   "型エラー",
+   "autoresearch",
+   "goal モード",
+   "Haiku"
+  ],
+  "lec03-main-p021": [
+   "autoresearch",
+   "GitHub",
+   "README",
+   "program.md",
+   "val_bpb",
+   "学習率",
+   "層",
+   "バッチ",
+   "正規化",
+   "活性化関数"
+  ],
+  "lec03-main-p022": [
+   "ツール",
+   "MCP",
+   "並列化",
+   "評価"
+  ],
+  "lec03-main-p023": [
+   "ハーネス",
+   "TMLR",
+   "arXiv",
+   "Claude Platform Docs",
+   "コンテキスト",
+   "run_tests",
+   "test_parse_date",
+   "read_file",
+   "edit_file"
+  ],
+  "lec03-main-p024": [
+   "MCP",
+   "モデルコンテキストプロトコル",
+   "CLI",
+   "Cloudflare",
+   "Gatekeeper",
+   "エージェント",
+   "資格情報",
+   "APIキー",
+   "MCP サーバー"
+  ],
+  "lec03-main-p025": [
+   "Human in the loop",
+   "Claude Code",
+   "Permission modes",
+   "Bash",
+   "git push",
+   "default モード",
+   "settings.json",
+   "auto モード",
+   "bypassPermissions"
+  ],
+  "lec03-main-p026": [
+   "Human in the loop",
+   "human-in / on / out-of-the-loop",
+   "エージェント",
+   "自律兵器"
+  ],
+  "lec03-main-p027": [
+   "冪等性",
+   "Stripe API",
+   "Idempotent requests",
+   "エージェント",
+   "send_email"
+  ],
+  "lec03-main-p028": [
+   "情報漏えい",
+   "機微なデータ",
+   "信頼できない入力",
+   "外への送信手段",
+   "EchoLeak",
+   "AI agents"
+  ],
+  "lec03-main-p029": [
+   "バックグラウンド実行",
+   "Claude Code",
+   "Interactive mode",
+   "Tools reference",
+   "Headless",
+   "Subagents",
+   "run_in_background",
+   "read_file",
+   "search",
+   "parse_date",
+   "常駐型"
+  ],
+  "lec03-main-p030": [
+   "ツールのバッチコール",
+   "Parallel tool use",
+   "Function calling",
+   "Gemini API",
+   "read_file",
+   "search",
+   "run_tests",
+   "edit_file"
+  ],
+  "lec03-main-p031": [
+   "サブエージェント",
+   "Claude Code",
+   "OpenAI Codex",
+   "親エージェント",
+   "コンテキスト",
+   "search",
+   "read_file",
+   "run_tests",
+   "Opus",
+   "Haiku"
+  ],
+  "lec03-main-p032": [
+   "ツール検索",
+   "コンテキスト",
+   "システムプロンプト",
+   "MCP",
+   "read_file",
+   "run_tests",
+   "slack_search",
+   "calendar_add",
+   "tool_search"
+  ],
+  "lec03-main-p033": [
+   "構造化出力",
+   "ツール呼び出し"
+  ],
+  "lec03-main-p034": [
+   "構造化出力",
+   "スキーマ",
+   "JSON",
+   "JSON Schema",
+   "真偽値",
+   "ツール呼び出し"
+  ],
+  "lec03-main-p035": [
+   "制約付きデコーディング",
+   "スキーマ",
+   "トークン",
+   "Structured outputs",
+   "Structured Outputs in the API",
+   "Structured output",
+   "output_config.format",
+   "strict",
+   "json_schema",
+   "JSON mode",
+   "enum"
+  ],
+  "lec03-main-p036": [
+   "判断モデル",
+   "System One",
+   "Primitives",
+   "Jev",
+   "JSON",
+   "制約付きデコーディング",
+   "トークン",
+   "LLM",
+   "ガードレール"
+  ],
+  "lec03-main-p037": [
+   "メモリ",
+   "実装例",
+   "Skill"
+  ],
+  "lec03-main-p038": [
+   "メモリ",
+   "コンテキスト",
+   "From Storage to Experience",
+   "Always-On Agents",
+   "Compaction overview",
+   "Claude Platform Docs",
+   "古い情報"
+  ],
+  "lec03-main-p039": [
+   "Claude",
+   "コンパクション",
+   "メモリツール",
+   "Claude API",
+   "自動メモリ",
+   "Claude Code",
+   "セッション",
+   "コンテキスト"
+  ],
+  "lec03-main-p040": [
+   "OpenClaw",
+   "長期メモリ",
+   "日々のメモ",
+   "dreaming",
+   "MEMORY.md",
+   "Memory architecture"
+  ],
+  "lec03-main-p041": [
+   "Skill",
+   "Agent Skills",
+   "Claude Platform Docs",
+   "SKILL.md",
+   "template.docx",
+   "scripts/collect.py",
+   "コンテキスト",
+   "トークン"
+  ],
+  "lec03-main-p042": [
+   "停止条件",
+   "失敗時の振る舞い",
+   "ループ",
+   "完了の判定",
+   "失敗の検出"
+  ],
+  "lec03-main-p043": [
+   "モデル",
+   "ハーネス",
+   "監視",
+   "エージェント",
+   "上限",
+   "制限時間",
+   "予算"
+  ],
+  "lec03-main-p044": [
+   "Claude Code",
+   "/goal",
+   "autoresearch",
+   "prepare.py",
+   "train.py",
+   "program.md",
+   "val_bpb",
+   "エージェント",
+   "評価役"
+  ],
+  "lec03-main-p045": [
+   "ツール",
+   "テスト",
+   "タイムアウト",
+   "再実行",
+   "プルリクエスト",
+   "やり直し"
+  ],
+  "lec03-main-p046": [
+   "ImpossibleBench",
+   "Conflicting-SWEbench",
+   "GPT-5",
+   "τ²-bench",
+   "AUROC",
+   "エージェント",
+   "審査役",
+   "テスト結果"
+  ],
+  "lec03-main-p047": [
+   "プロンプト",
+   "テスト",
+   "Claude Opus 4.7",
+   "Claude Opus 4.6",
+   "System Card",
+   "ImpossibleBench",
+   "ICLR 2026",
+   "読み取り専用"
+  ],
+  "lec03-main-p048": [
+   "冪等性",
+   "ACRFence",
+   "CoDAIM workshop",
+   "Claude Code CLI",
+   "Qwen3-32B",
+   "チェックポイント機能",
+   "二重払い",
+   "参照ID"
+  ],
+  "lec03-main-p049": [
+   "信頼境界",
+   "ハーネス"
+  ],
+  "lec03-main-p050": [
+   "Check Point Research",
+   "MINJA",
+   "指示ファイル",
+   "AGENTS.md",
+   "CLAUDE.md",
+   "Skill",
+   "メモリ",
+   "コンテキスト",
+   "リポジトリ"
+  ],
+  "lec03-main-p051": [
+   "Claude Code",
+   "Configure permissions",
+   "Skill",
+   "メモリ",
+   "issue",
+   "ask・deny ルール",
+   "長期メモリ",
+   "リポジトリ"
+  ],
+  "lec03-main-p052": [
+   "Replit Agent",
+   "Google Antigravity",
+   "Claude Code",
+   "Nx",
+   "データベース",
+   "認証情報",
+   "キャッシュ",
+   "ホームフォルダ",
+   "AI CLI",
+   "パッケージ"
+  ],
+  "lec03-main-p053": [
+   "サンドボックス",
+   "Claude Code",
+   "sandboxing",
+   "Configure the sandboxed Bash tool",
+   "credentials",
+   "denyRead",
+   "作業フォルダ",
+   "ドメイン",
+   "認証情報"
+  ],
+  "lec03-main-p054": [
+   "RSI",
+   "エージェント",
+   "信頼境界"
+  ],
+  "lec03-main-p055": [
+   "RSI",
+   "Recursive Self-Improvement",
+   "再帰的自己改善",
+   "Anthropic Institute",
+   "実装",
+   "学習実験",
+   "評価"
+  ],
+  "lec03-main-p056": [
+   "Anthropic Engineering",
+   "C コンパイラ",
+   "parallel Claudes",
+   "Cursor",
+   "Scaling long-running autonomous coding",
+   "METR",
+   "Linux",
+   "ビルド",
+   "Web ブラウザ",
+   "コミット",
+   "OpenClaw"
+  ],
+  "lec03-main-p057": [
+   "RSI",
+   "Anthropic Institute",
+   "OpenAI",
+   "コード量",
+   "生産性",
+   "自律性",
+   "隔離環境",
+   "Hugging Face",
+   "外部アクセス"
+  ],
+  "lec03-main-p058": [
+   "RSI",
+   "ハーネス",
+   "Darwin Gödel Machine",
+   "Sakana AI",
+   "Anthropic",
+   "SWE-bench",
+   "Skill",
+   "コンパクション",
+   "プロンプト",
+   "サンドボックス",
+   "モデル"
+  ],
+  "lec03-main-p059": [
+   "エージェント",
+   "モデル",
+   "ハーネス",
+   "ツール",
+   "構造化出力",
+   "メモリ",
+   "Skill",
+   "停止条件",
+   "信頼境界",
+   "サンドボックス",
+   "RSI"
+  ],
+  "lec03-main-p060": [
+   "Appendix",
+   "補足資料",
+   "技術要素"
+  ],
+  "lec03-main-p061": [
+   "エージェント SDK",
+   "フレームワーク",
+   "サンドボックス",
+   "ワークフロー",
+   "OpenAI Agents SDK",
+   "AGENTS.md",
+   "MCP",
+   "Google ADK 2.0",
+   "Claude Agent SDK",
+   "Claude Code",
+   "Managed Agents",
+   "pydantic-ai"
+  ],
+  "lec03-main-p062": [
+   "構造化出力",
+   "API",
+   "スキーマ",
+   "Claude API",
+   "output_config.format",
+   "strict: true",
+   "OpenAI API",
+   "json_schema",
+   "JSON mode",
+   "Gemini API",
+   "JSON Schema",
+   "ツール呼び出し"
+  ],
+  "lec03-main-p063": [
+   "ツール呼び出し",
+   "Claude API",
+   "ツール検索",
+   "トークン",
+   "コード経由の呼び出し",
+   "OpenAI API",
+   "defer_loading",
+   "tool_search",
+   "gpt-5.4",
+   "コンテキスト",
+   "ハーネス"
+  ],
+  "lec03-main-p064": [
+   "長時間タスク",
+   "METR",
+   "50% 時間地平",
+   "80% 時間地平",
+   "GPT-5.6 Sol",
+   "Claude Opus 5.5",
+   "AIモデル"
+  ],
+  "lec03-main-p065": [
+   "Context Engineering",
+   "メモリ",
+   "コンパクション",
+   "API",
+   "ファイル型",
+   "自動のコンパクション",
+   "メモリツール",
+   "アプリケーション"
+  ],
+  "lec03-main-p066": [
+   "AGENTS.md",
+   "Skills",
+   "指示ファイル",
+   "Agent Skills",
+   "OpenAI",
+   "Linux Foundation",
+   "Agentic AI Foundation",
+   "Claude Code",
+   "CLAUDE.md",
+   "SKILL.md",
+   "Claude API"
+  ],
+  "lec03-main-p067": [
+   "サンドボックス",
+   "権限",
+   "承認",
+   "分類器",
+   "Claude Code",
+   "auto mode",
+   "VS Code",
+   "OS",
+   "最小権限"
+  ],
+  "lec03-main-p068": [
+   "ハーネス設計",
+   "エージェント",
+   "自己評価",
+   "認証情報",
+   "Anthropic",
+   "OpenAI",
+   "AGENTS.md",
+   "lint",
+   "テスト",
+   "Harness engineering"
+  ],
+  "lec03-main-p069": [
+   "RSI",
+   "AI 開発",
+   "Claude",
+   "Anthropic Institute",
+   "METR",
+   "Claude Opus 5.5",
+   "コード量",
+   "外部評価",
+   "自動化"
+  ],
+  "lec03-main-p070": [
+   "Hugging Face",
+   "OpenAI",
+   "パッケージ管理サービス",
+   "システムプロンプト",
+   "ハーネス",
+   "監視",
+   "DNS",
+   "チャットボット",
+   "信頼境界",
+   "最小権限"
+  ],
+  "lec03-main-p071": [
+   "API",
+   "構造化出力",
+   "コンパクション",
+   "コーディングエージェント",
+   "Claude Code",
+   "サンドボックス",
+   "SDK",
+   "フレームワーク",
+   "Google ADK",
+   "AGENTS.md",
+   "Agent Skills"
+  ]
+ }
+}
