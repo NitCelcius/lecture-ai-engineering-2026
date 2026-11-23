@@ -126,3 +126,50 @@ def search_graph(query: str) -> str:
         return json.dumps({"error": str(e)}, ensure_ascii=False)
     except APIError as e:
         return json.dumps({"error": api_error_message(e.code)}, ensure_ascii=False)
+
+
+# 第5回 宿題: 用語索引を使う --index モード。モデルからは search_materials という名前で見せる
+def search_materials_with_terms(query: str) -> str:
+    """第1〜3回の本講義資料を検索し、関連ページの本文・タイトル・ページ番号を返す。
+
+    queryに調べたい内容を指定する。各ページのrelated_termsには、そのページの用語と、
+    同じ用語が出てくる別のページIDが入る。必要ならread_pageで開くか、lookup_termで用語を引く。
+    """
+    import sqlite3
+    from google.genai.errors import APIError
+    from app.retrieval import search
+    from app.term_index import related_terms
+
+    try:
+        results = search(query)
+    except (ValueError, FileNotFoundError, sqlite3.Error) as e:
+        return json.dumps({"error": str(e), "results": []}, ensure_ascii=False)
+    except APIError as e:
+        return json.dumps({"error": api_error_message(e.code), "results": []}, ensure_ascii=False)
+    for result in results:
+        result["related_terms"] = related_terms(result["page_id"])
+    return json.dumps({"results": results}, ensure_ascii=False)
+
+
+def lookup_term(term: str) -> str:
+    """資料の用語索引を引き、近い用語と、その用語が出てくるページIDの一覧を返す。
+
+    表記が少し違っても近い用語を候補として返す（matchが大きいほど近い）。
+    見つからなければ、別の言い方や英語・日本語の表記で引き直す。ページの本文はread_pageで開く。
+    """
+    from app.term_index import lookup
+
+    try:
+        return json.dumps({"candidates": lookup(term)}, ensure_ascii=False)
+    except (ValueError, OSError) as e:
+        return json.dumps({"error": str(e), "candidates": []}, ensure_ascii=False)
+
+
+def read_page(page_id: str) -> str:
+    """ページIDを指定し、そのページの本文・タイトル・ページ番号を返す。"""
+    from app.retrieval import read_page as read
+
+    try:
+        return json.dumps(read(page_id), ensure_ascii=False)
+    except (ValueError, OSError) as e:
+        return json.dumps({"error": str(e)}, ensure_ascii=False)
