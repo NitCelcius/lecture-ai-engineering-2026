@@ -1,0 +1,103 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "runs": 3,
+ "groups": [
+  {
+   "canonical": "生成 AI",
+   "variants": [
+    "生成 AI",
+    "AI"
+   ],
+   "kind": "abbreviation",
+   "reason": "生成AIの略称としてAIが使われる文脈があるため。"
+  },
+  {
+   "canonical": "Chain of Thought",
+   "variants": [
+    "Chain of Thought",
+    "CoT"
+   ],
+   "kind": "abbreviation",
+   "reason": "英語の正式名称と、その一般的な略称であるため。"
+  },
+  {
+   "canonical": "Deep Learning",
+   "variants": [
+    "Deep Learning",
+    "DL",
+    "深層学習"
+   ],
+   "kind": "translation",
+   "reason": "英語の略称、英語の正式名称、およびその日本語訳であるため。"
+  },
+  {
+   "canonical": "Fine-Tuning",
+   "variants": [
+    "Fine-Tuning",
+    "FT"
+   ],
+   "kind": "translation",
+   "reason": "英語の略称、英語表記、およびそのカタカナ表記・日本語訳であるため。"
+  },
+  {
+   "canonical": "LLM",
+   "variants": [
+    "LLM",
+    "Large Language Models",
+    "大規模言語モデル"
+   ],
+   "kind": "translation",
+   "reason": "英語の略称、英語の正式名称、およびそれらの日本語訳であるため。"
+  },
+  {
+   "canonical": "MCP",
+   "variants": [
+    "MCP",
+    "MCP Server",
+    "MCP サーバー",
+    "モデルコンテキストプロトコル"
+   ],
+   "kind": "translation",
+   "reason": "英語の略称、サーバーを付加した表現、および日本語訳であるため。"
+  },
+  {
+   "canonical": "Machine Learning",
+   "variants": [
+    "Machine Learning",
+    "ML",
+    "機械学習"
+   ],
+   "kind": "translation",
+   "reason": "英語の略称、英語の正式名称、およびその日本語訳であるため。"
+  },
+  {
+   "canonical": "RAG",
+   "variants": [
+    "RAG",
+    "Retrieval-Augmented Generation",
+    "検索拡張生成"
+   ],
+   "kind": "translation",
+   "reason": "英語の略称、正式名称、および日本語訳の関係にあるため。"
+  },
+  {
+   "canonical": "RL",
+   "variants": [
+    "RL",
+    "強化学習"
+   ],
+   "kind": "translation",
+   "reason": "英語の略称とその日本語訳の関係にあるため。"
+  },
+  {
+   "canonical": "Structured output",
+   "variants": [
+    "Structured output",
+    "Structured outputs",
+    "構造化出力"
+   ],
+   "kind": "translation",
+   "reason": "英語の単数・複数形、API文脈での修飾表現、および日本語訳であるため。"
+  }
+ ]
+}
